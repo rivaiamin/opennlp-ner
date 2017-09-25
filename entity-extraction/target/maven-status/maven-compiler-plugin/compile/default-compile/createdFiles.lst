@@ -1,0 +1,15 @@
+opennlp/addons/modelbuilder/DefaultModelBuilderUtil.class
+opennlp/addons/modelbuilder/SentenceProvider.class
+opennlp/addons/modelbuilder/ModelParameter.class
+opennlp/addons/modelbuilder/SemiSupervisedModelGenerator.class
+opennlp/addons/modelbuilder/impls/FileSentenceProvider.class
+opennlp/addons/modelbuilder/KnownEntityProvider.class
+com/itq/ner/CreateModel.class
+opennlp/addons/modelbuilder/impls/GenericModelGenerator.class
+opennlp/addons/modelbuilder/impls/BaseModelBuilderParams.class
+opennlp/addons/modelbuilder/impls/GenericModelableImpl.class
+opennlp/addons/modelbuilder/Modelable.class
+opennlp/addons/modelbuilder/impls/FileModelValidatorImpl.class
+com/itq/TestApp.class
+opennlp/addons/modelbuilder/impls/FileKnownEntityProvider.class
+opennlp/addons/modelbuilder/ModelGenerationValidator.class

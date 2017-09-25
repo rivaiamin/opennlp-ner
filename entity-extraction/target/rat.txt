@@ -1,0 +1,2202 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-09-25T12:26:18+07:00
+Notes: 3
+Binaries: 6
+Archives: 2
+Standards: 730
+
+Apache Licensed: 39
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+36 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+  pom.xml
+  src/main/resources/models/location/knownentities.txt
+  src/main/resources/models/location/blentities.txt
+  src/main/resources/models/location/sentences.txt
+  src/main/resources/models/location/annotatedSentences.txt
+  src/main/resources/models/thing/knownentities.txt
+  src/main/resources/models/thing/blentities.txt
+  src/main/resources/models/thing/sentences.txt
+  src/main/resources/models/thing/annotatedSentences.txt
+  src/main/resources/models/person/knownentities.txt
+  src/main/resources/models/person/blentities.txt
+  src/main/resources/models/person/sentences.txt
+  src/main/resources/models/person/annotatedSentences.txt
+  src/main/resources/docs/output.xml
+  src/main/resources/docs/sura_2.xml
+  src/main/java/com/itq/TestApp.java
+  src/main/java/com/itq/ner/CreateModel.java
+  src/test/java/modelbuilder/AppTest.java
+  models/location/knownentities.txt
+  models/location/blentities.txt
+  models/location/sentences.txt
+  models/location/annotatedSentences.txt
+  models/thing/knownentities.txt
+  models/thing/blentities.txt
+  models/thing/sentences.txt
+  models/thing/annotatedSentences.txt
+  models/person/knownentities.txt
+  models/person/blentities.txt
+  models/person/sentences.txt
+  models/person/annotatedSentences.txt
+  docs/output.xml
+  docs/sura_2.xml
+  opennlp/docs/apidocs/opennlp-uima/script.js
+  opennlp/docs/apidocs/opennlp-uima/package-list
+  opennlp/docs/apidocs/opennlp-tools/script.js
+  opennlp/docs/apidocs/opennlp-tools/package-list
+
+*******************************
+
+Archives:
+
+ + opennlp/lib/opennlp-tools-1.6.0-SNAPSHOT.jar
+ 
+ + opennlp/lib/opennlp-uima-1.6.0-SNAPSHOT.jar
+ 
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+ !????? pom.xml
+ !????? src/main/resources/models/location/knownentities.txt
+ !????? src/main/resources/models/location/blentities.txt
+ !????? src/main/resources/models/location/sentences.txt
+  B     src/main/resources/models/location/itq-person-model.bin
+ !????? src/main/resources/models/location/annotatedSentences.txt
+ !????? src/main/resources/models/thing/knownentities.txt
+ !????? src/main/resources/models/thing/blentities.txt
+ !????? src/main/resources/models/thing/sentences.txt
+  B     src/main/resources/models/thing/itq-person-model.bin
+ !????? src/main/resources/models/thing/annotatedSentences.txt
+ !????? src/main/resources/models/person/knownentities.txt
+ !????? src/main/resources/models/person/blentities.txt
+ !????? src/main/resources/models/person/sentences.txt
+  B     src/main/resources/models/person/itq-person-model.bin
+ !????? src/main/resources/models/person/annotatedSentences.txt
+ !????? src/main/resources/docs/output.xml
+ !????? src/main/resources/docs/sura_2.xml
+ !????? src/main/java/com/itq/TestApp.java
+ !????? src/main/java/com/itq/ner/CreateModel.java
+  AL    src/main/java/opennlp/addons/modelbuilder/DefaultModelBuilderUtil.java
+  AL    src/main/java/opennlp/addons/modelbuilder/KnownEntityProvider.java
+  AL    src/main/java/opennlp/addons/modelbuilder/impls/BaseModelBuilderParams.java
+  AL    src/main/java/opennlp/addons/modelbuilder/impls/FileModelValidatorImpl.java
+  AL    src/main/java/opennlp/addons/modelbuilder/impls/FileSentenceProvider.java
+  AL    src/main/java/opennlp/addons/modelbuilder/impls/GenericModelableImpl.java
+  AL    src/main/java/opennlp/addons/modelbuilder/impls/FileKnownEntityProvider.java
+  AL    src/main/java/opennlp/addons/modelbuilder/impls/GenericModelGenerator.java
+  AL    src/main/java/opennlp/addons/modelbuilder/Modelable.java
+  AL    src/main/java/opennlp/addons/modelbuilder/ModelParameter.java
+  AL    src/main/java/opennlp/addons/modelbuilder/SentenceProvider.java
+  AL    src/main/java/opennlp/addons/modelbuilder/SemiSupervisedModelGenerator.java
+  AL    src/main/java/opennlp/addons/modelbuilder/ModelGenerationValidator.java
+ !????? src/test/java/modelbuilder/AppTest.java
+ !????? models/location/knownentities.txt
+ !????? models/location/blentities.txt
+ !????? models/location/sentences.txt
+  B     models/location/itq-person-model.bin
+ !????? models/location/annotatedSentences.txt
+ !????? models/thing/knownentities.txt
+ !????? models/thing/blentities.txt
+ !????? models/thing/sentences.txt
+  B     models/thing/itq-person-model.bin
+ !????? models/thing/annotatedSentences.txt
+ !????? models/person/knownentities.txt
+ !????? models/person/blentities.txt
+ !????? models/person/sentences.txt
+  B     models/person/itq-person-model.bin
+ !????? models/person/annotatedSentences.txt
+ !????? docs/output.xml
+ !????? docs/sura_2.xml
+  A     opennlp/lib/opennlp-tools-1.6.0-SNAPSHOT.jar
+  A     opennlp/lib/opennlp-uima-1.6.0-SNAPSHOT.jar
+  N     opennlp/LICENSE
+  AL    opennlp/RELEASE_NOTES.html
+  N     opennlp/NOTICE
+  AL    opennlp/bin/opennlp.bat
+  AL    opennlp/bin/opennlp
+   opennlp/docs/apidocs/opennlp-uima/stylesheet.css
+   opennlp/docs/apidocs/opennlp-uima/overview-frame.html
+   opennlp/docs/apidocs/opennlp-uima/help-doc.html
+   opennlp/docs/apidocs/opennlp-uima/allclasses-noframe.html
+   opennlp/docs/apidocs/opennlp-uima/overview-summary.html
+   opennlp/docs/apidocs/opennlp-uima/index-all.html
+ !????? opennlp/docs/apidocs/opennlp-uima/script.js
+   opennlp/docs/apidocs/opennlp-uima/index.html
+   opennlp/docs/apidocs/opennlp-uima/serialized-form.html
+ !????? opennlp/docs/apidocs/opennlp-uima/package-list
+   opennlp/docs/apidocs/opennlp-uima/constant-values.html
+   opennlp/docs/apidocs/opennlp-uima/allclasses-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/ContainingConstraint.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/AnnotatorUtil.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/AbstractModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/UimaUtil.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/CasConsumerUtil.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/AnnotationIteratorPair.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/OpenNlpAnnotatorProcessException.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/OpennlpUtil.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/AnnotationComparator.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/SampleTraceStream.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/ExceptionMessages.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/AnnotationComboIterator.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/util/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/SentenceDetector.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/SentenceModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/SentenceModelResourceImpl.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/SentenceDetectorTrainer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/AbstractSentenceDetector.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/sentdetect/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/LanguageDetector.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/DoccatModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/DoccatModelResourceImpl.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/DocumentCategorizerTrainer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/DocumentCategorizer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/doccat/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/chunker/Chunker.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/chunker/ChunkerModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/chunker/ChunkerModelResourceImpl.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/chunker/ChunkerTrainer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/chunker/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/chunker/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/chunker/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/parser/ParserModelResourceImpl.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/parser/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/parser/ParserModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/parser/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/parser/Parser.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/parser/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/WhitespaceTokenizer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/TokenizerModelResourceImpl.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/Tokenizer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/TokenizerTrainer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/SimpleTokenizer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/AbstractTokenizer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/TokenizerModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/tokenize/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/DictionaryNameFinder.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/TokenNameFinderModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/TokenNameFinderModelResourceImpl.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/NameFinderTrainer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/NameFinder.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/namefind/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/normalizer/NumberUtil.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/normalizer/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/normalizer/Normalizer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/normalizer/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/normalizer/StringDictionary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/normalizer/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/postag/POSModelResource.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/postag/POSModelResourceImpl.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/postag/package-tree.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/postag/POSTagger.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/postag/package-frame.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/postag/POSTaggerTrainer.html
+   opennlp/docs/apidocs/opennlp-uima/opennlp/uima/postag/package-summary.html
+   opennlp/docs/apidocs/opennlp-uima/overview-tree.html
+   opennlp/docs/apidocs/opennlp-uima/deprecated-list.html
+   opennlp/docs/apidocs/opennlp-tools/stylesheet.css
+   opennlp/docs/apidocs/opennlp-tools/overview-frame.html
+   opennlp/docs/apidocs/opennlp-tools/help-doc.html
+   opennlp/docs/apidocs/opennlp-tools/allclasses-noframe.html
+   opennlp/docs/apidocs/opennlp-tools/overview-summary.html
+   opennlp/docs/apidocs/opennlp-tools/index-all.html
+ !????? opennlp/docs/apidocs/opennlp-tools/script.js
+   opennlp/docs/apidocs/opennlp-tools/index.html
+   opennlp/docs/apidocs/opennlp-tools/serialized-form.html
+ !????? opennlp/docs/apidocs/opennlp-tools/package-list
+   opennlp/docs/apidocs/opennlp-tools/constant-values.html
+   opennlp/docs/apidocs/opennlp-tools/allclasses-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ReverseListIterator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/StringUtil.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/AbstractObjectStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/CollectionObjectStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ListHeap.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/FilterObjectStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/BrownBigramFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/TokenFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/StringPattern.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/InSpanGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/SuffixFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/CachedFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/DocumentBeginFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/GeneratorFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/FeatureGeneratorAdapter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/FeatureGeneratorUtil.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/DictionaryFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/BigramNameFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/PreviousTwoMapFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/BrownCluster.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/BrownCluster.BrownClusterSerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/SentenceFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/TrigramNameFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/BrownTokenClassFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/BrownTokenFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/FastTokenClassFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/OutcomePriorFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/FeatureGeneratorFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/TokenPatternFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/WordClusterFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/ArtifactToSerializerMapper.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/CharacterNgramFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/AdaptiveFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/FeatureGeneratorResourceProvider.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/TokenClassFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/PrefixFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/PreviousMapFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/CustomFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/WordClusterDictionary.WordClusterDictionarySerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/WindowFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/BrownTokenClasses.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/WordClusterDictionary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/AggregatedFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/featuregen/AdditionalContextFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/Heap.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/EventTraceStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/SequenceCodec.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/InputStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/Cache.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/CountedSet.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/TreeHeap.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/Sequence.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/AbstractEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/Span.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/PlainTextByLineStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/MarkableFileInputStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ObjectStreamUtils.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/SequenceValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/BaseToolFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/TrainingParameters.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/BeamSearchContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/InvalidFormatException.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ParagraphStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ResetableIterator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ObjectStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/Version.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/BeamSearch.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ext/ExtensionLoader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ext/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ext/ExtensionNotLoadedException.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ext/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ext/OSGiExtensionLoader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ext/ExtensionServiceKeys.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/ext/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/EvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/Evaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/CrossValidationPartitioner.TrainingSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/Mean.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/CrossValidationPartitioner.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/FMeasure.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/eval/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/HashList.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/StringList.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/ClassSerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/GenericModelSerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/ModelType.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/ArtifactSerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/UncloseableInputStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/ArtifactProvider.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/SerializableArtifact.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/FeatureGeneratorFactorySerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/ModelUtil.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/BaseModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/util/model/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/LinkedSpan.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/EntityLinkerFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/BaseLink.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/EntityLinkerProperties.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/EntityLinker.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/entitylinker/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ngram/NGramModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ngram/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ngram/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ngram/NGramGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ngram/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/Dictionary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/Index.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/serializer/Attributes.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/serializer/DictionarySerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/serializer/EntryInserter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/serializer/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/serializer/Entry.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/serializer/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/serializer/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/dictionary/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceDetector.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceSample.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SDCrossValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/DefaultSDContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/EmptyLinePreprocessorStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceDetectorME.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceDetectorFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/AbstractEndOfSentenceScanner.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/DefaultEndOfSentenceScanner.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceDetectorEvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/NewlineSentenceDetector.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SentenceDetectorEvaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/EndOfSentenceScanner.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SDEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/SDContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/Factory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/th/SentenceContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/th/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/th/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/th/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/lang/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/sentdetect/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/TokenSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/Conll03NameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/DirectorySampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ParseSampleStreamFactory.Parameters.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/DocumentSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/LeipzigDocumentSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/EvalitaNameSampleStream.LANGUAGE.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/Conll02NameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/WordTagSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/NameSampleDataStreamFactory.Parameters.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/AbstractSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/DetokenizerSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/NameToSentenceSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/AbstractToSentenceSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/POSToSentenceSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/NameToTokenSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/FileToStringSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/POSToTokenSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/ParseToPOSSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/ParseToPOSSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/POSToTokenSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/ParseToSentenceSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/NameToTokenSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/POSToSentenceSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/FileToByteArraySampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/NameToSentenceSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/convert/ParseToTokenSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ConllXSentenceSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ConllXTokenSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/Conll03NameSampleStream.LANGUAGE.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/SgmlParser.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/SgmlParser.ContentHandler.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/MucNameContentHandler.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/MucNameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/Muc6NameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/muc/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/Conll03NameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/WordTagSampleStreamFactory.Parameters.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/BioNLP2004NameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/SentenceSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADPOSSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADChunkSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceStream.SentenceParser.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/PortugueseContractionUtility.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceStream.Sentence.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceStream.SentenceParser.TreeElement.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADPOSSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceStream.SentenceParser.Node.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADNameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADTokenSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADNameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADChunkSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/ADSentenceStream.SentenceParser.Leaf.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ad/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/BioNLP2004NameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/OntoNotesParseSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/OntoNotesNameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/OntoNotesParseSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/OntoNotesNameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/OntoNotesPOSSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/OntoNotesFormatParameters.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ontonotes/DocumentToLineStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/BratAnnotationStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/BratNameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/BratDocumentStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/AnnotationConfiguration.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/BratAnnotation.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/RelationAnnotation.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/SegmenterObjectStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/AttributeAnnotation.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/SpanAnnotation.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/BratNameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/BratDocument.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/brat/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ChunkerSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/NameFinderCensus90NameStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/LeipzigDoccatSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/LanguageSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/EvalitaNameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/EvalitaNameSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ConllXPOSSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/Conll02NameSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ConllXPOSSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/frenchtreebank/ConstitParseSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/frenchtreebank/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/frenchtreebank/ConstitParseSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/frenchtreebank/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/frenchtreebank/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/Conll02NameSampleStream.LANGUAGE.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/ParseSampleStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/NameSampleDataStreamFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/formats/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/lemmatizer/SimpleLemmatizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/lemmatizer/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/lemmatizer/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/lemmatizer/DictionaryLemmatizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/lemmatizer/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/ContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/GIS.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/LineSearch.LineSearchResult.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/QNMinimizer.L2RegFunction.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/QNMinimizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/NegLogLikelihood.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/ParallelNegLogLikelihood.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/Function.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/QNModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/QNMinimizer.Evaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/QNTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/ArrayMath.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/LineSearch.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/quasinewton/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/GISModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/PlainTextGISModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/ObjectGISModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/SuffixSensitiveGISModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/ObjectGISModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/PlainTextGISModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/SuffixSensitiveGISModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/BinaryGISModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/BinaryGISModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/QNModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/ObjectQNModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/OldFormatGISModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/GISModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/ObjectQNModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/BinaryQNModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/PooledGISModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/QNModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/BinaryQNModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/io/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/IntegerPool.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/DataStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/BasicContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/RealBasicEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/GISModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/maxent/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/TrainerFactory.TrainerType.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/PerceptronModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/PerceptronModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/PlainTextPerceptronModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/BinaryPerceptronModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/SuffixSensitivePerceptronModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/SimplePerceptronSequenceTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/BinaryPerceptronModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/PerceptronTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/PlainTextPerceptronModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/PerceptronModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/perceptron/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/TrainerFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/EventModelSequenceTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/SequenceTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/AbstractEventTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/AbstractSequenceTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/EventTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/BeamSearch.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/AbstractEventModelSequenceTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/AbstractTrainer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/AbstractModel.ModelType.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/UniformPrior.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/SequenceStreamEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/IndexHashTable.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/AbstractModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/AbstractModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/ComparableEvent.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/DynamicEvalParameters.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/Prior.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/DataReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/SequenceClassificationModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/MaxentModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/TwoPassDataIndexer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/DataIndexer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/RealValueFileEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/GenericModelReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/FileEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/Context.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/AbstractModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/ObjectDataReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/Sequence.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/GenericModelWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/OnePassDataIndexer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/BinaryFileDataReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/ComparablePredicate.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/Event.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/EvalParameters.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/OnePassRealValueDataIndexer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/MutableContext.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/AbstractDataIndexer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/SequenceStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/PlainTextFileDataReader.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/HashSumEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/TrainUtil.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/ml/model/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/Stemmer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/snowball/SnowballStemmer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/snowball/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/snowball/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/snowball/SnowballStemmer.ALGORITHM.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/snowball/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/stemmer/PorterStemmer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DoccatEvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DoccatCrossValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DoccatModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DocumentCategorizerEvaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DocumentSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/BagOfWordsFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/FeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DocumentCategorizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DocumentCategorizerEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/NGramFeatureGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DoccatFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DocumentSample.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/doccat/DocumentCategorizerME.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/Chunker.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkSampleSequenceStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/DefaultChunkerSequenceValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/DefaultChunkerContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerEvaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerME.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerCrossValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkerEvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/ChunkSample.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/chunker/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/chunking/BuildContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/chunking/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/chunking/ParserEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/chunking/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/chunking/Parser.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/chunking/CheckContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/chunking/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/AbstractBottomUpParser.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/Constituent.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/AbstractParserEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/HeadRules.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/GapLabeler.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserEvaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ChunkSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserChunkerFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserEvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserType.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserChunkerSequenceValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/Parse.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/PosSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/AttachContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/BuildContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/ParserEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/Parser.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/CheckContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/treeinsert/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/Cons.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/Parser.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserEventTypeEnum.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParserCrossValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/en/HeadRules.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/en/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/en/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/en/HeadRules.HeadRulesSerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/en/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/es/AncoraSpanishHeadRules.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/es/AncoraSpanishHeadRules.HeadRulesSerializer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/es/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/es/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/lang/es/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/AbstractContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ChunkContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/parser/ParseSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenizerEvaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/WhitespaceTokenizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenizerStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/DefaultTokenContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/DetokenizationDictionary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/Tokenizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/DetokenizationDictionary.Operation.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenizerCrossValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/WhitespaceTokenStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/DictionaryDetokenizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenizerEvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/SimpleTokenizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenizerME.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenizerFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokSpanEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/Detokenizer.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/Detokenizer.DetokenizationOperation.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenSample.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/Factory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/en/TokenSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/en/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/en/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/en/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/lang/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/TokenizerModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/tokenize/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/BilouCodec.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/TokenNameFinderFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/RegexNameFinder.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameFinderEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/DictionaryNameFinder.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/TokenNameFinderModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameSampleTypeFilter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameFinderME.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/RegexNameFinderFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/DefaultNameContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/DocumentNameFinder.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/RegexNameFinderFactory.DEFAULT_REGEX_NAME_FINDER.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/BilouNameFinderSequenceValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameSampleSequenceStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameSampleDataStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/TokenNameFinderEvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/TokenNameFinderEvaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/TokenNameFinder.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameSample.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/NameFinderSequenceValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/RegexNameFinderFactory.RegexAble.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/TokenNameFinderCrossValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/TokenNameFinderModel.FeatureGeneratorCreationError.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/BioCodec.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/namefind/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSDictionaryWriter.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/DefaultPOSSequenceValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/DefaultPOSContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSModel.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSTaggerME.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSContextGenerator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSSampleSequenceStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/package-tree.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSTagger.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSTaggerFactory.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSSample.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSSampleEventStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/MutableTagDictionary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/package-frame.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/WordTagSampleStream.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/TagDictionary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSEvaluator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSTaggerCrossValidator.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSDictionary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/POSTaggerEvaluationMonitor.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/postag/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/opennlp/tools/package-summary.html
+   opennlp/docs/apidocs/opennlp-tools/overview-tree.html
+   opennlp/docs/apidocs/opennlp-tools/deprecated-list.html
+  AL    opennlp/docs/manual/opennlp.html
+  AL    opennlp/docs/manual/css/opennlp-docs.css
+  AL    opennlp/docs/opennlp-uima-descriptors/Chunker.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/OpenNlpTextAnalyzer.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/DateNameFinder.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/PersonNameFinder.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/PersonNameFinderTrainer.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/SentenceDetectorTrainer.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/MoneyNameFinder.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/SentenceDetector.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/OrganizationNameFinder.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/LanguageDetector.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/LocationNameFinder.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/Parser.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/TypeSystem.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/TokenizerTrainer.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/ChunkerTrainer.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/Tokenizer.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/PosTagger.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/PercentageNameFinder.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/PosTaggerTrainer.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/TimeNameFinder.xml
+  AL    opennlp/docs/opennlp-uima-descriptors/SimpleTokenizer.xml
+  N     opennlp/README
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 
+=======================================================================
+==pom.xml
+=======================================================================
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.apache.opennlp</groupId>
+    <artifactId>opennlp</artifactId>
+    <version>1.6.0-SNAPSHOT</version>
+    <relativePath>../opennlp/pom.xml</relativePath>
+  </parent>
+
+  <artifactId>modelbuilder-addon</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>modelbuilder-addon</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+      <dependency>
+      <groupId>org.apache.opennlp</groupId>
+      <artifactId>opennlp-tools</artifactId>
+      <version>1.6.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+
+=======================================================================
+==src/main/resources/models/location/knownentities.txt
+=======================================================================
+surga
+neraka
+bumi
+langit
+muka bumi
+mekkah
+madinah
+Bani-Nadir Houses
+Banu-Qurayza Forts
+The mosque which the hypocrite took
+ka'bah
+masjidil haram
+masjidil aqsa
+masjid quba
+The garden of Adam and Eve
+Al-Aaraf
+baitul ma'mur
+Divine Lote Tree
+Al-Hijr
+antiokhia
+ayla
+babilon
+bakkah
+Lut village
+madyan
+city of cave People
+Pharaoh's City
+Sea Capital
+Iram
+Jerusalem
+Yathrib
+Yunus village
+Ta'if
+Al-Ahqaf
+Egypt
+Blessed place
+The Cave
+Holy land
+Levant
+Land of wandering
+LowestLand
+Two seas
+Sheba
+Thor Cave
+Al-Judi
+Al-Marwah
+Al-Safa
+Mount Sinai
+Two mountains
+Mashar-il-Haram
+
+=======================================================================
+==src/main/resources/models/location/blentities.txt
+=======================================================================
+
+=======================================================================
+==src/main/resources/models/location/sentences.txt
+=======================================================================
+sesungguhnya musa telah datang kepadamu
+bani israil meminta kepada musa pada jaman dahulu
+sesungguhnya kami telah mengutusmu (muhammad)
+mengenal muhammad seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (muhammad)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera maryam
+apa yang diturunkan kepada ibrahim, isma'il, ishaq, ya'qub dan anak cucunya
+apa yang diberikan kepada musa dan isa 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan sulaiman
+padahal sulaiman tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada adam nama-nama (benda-benda)
+hai adam, diamilah oleh kamu dan isterimu surga ini
+ketika ibrahim diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam ibrahim tempat shalat
+ketika ibrahim berdoa
+tidak ada yang benci kepada agama ibrahim
+ibrahim telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula ya'qub
+telah kami perintahkan kepada ibrahim dan ismail
+peninggalan keluarga musa dan keluarga harun
+ketika kami selamatkan kamu dari (fir'aun)
+
+=======================================================================
+==src/main/resources/models/location/annotatedSentences.txt
+=======================================================================
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+
+=======================================================================
+==src/main/resources/models/thing/knownentities.txt
+=======================================================================
+kera
+anak sapi
+unta
+singa
+serigala
+sapi
+domba
+anjing
+keledai
+gajah
+ikan
+katak
+kambing
+kuda
+bagal
+ular
+babi
+sapi
+hewan karnivora
+makhluk hidup
+akasia
+alfalfa
+poa annua
+pohon bad
+kemangi
+kamper
+tanaman
+ketimun
+kurma
+ara
+bawang putih
+jahe
+kundur
+anggur
+rumput
+herba
+sekam
+daun
+miju-miju
+pohon lote
+tanaman mustard
+zaitun
+bawang
+delima
+salvadora persica
+pohon atsl
+pohon sidr
+tamarix
+tanaman berduri
+pohon
+
+=======================================================================
+==src/main/resources/models/thing/blentities.txt
+=======================================================================
+
+=======================================================================
+==src/main/resources/models/thing/sentences.txt
+=======================================================================
+sesungguhnya musa telah datang kepadamu
+bani israil meminta kepada musa pada jaman dahulu
+sesungguhnya kami telah mengutusmu (muhammad)
+mengenal muhammad seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (muhammad)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera maryam
+apa yang diturunkan kepada ibrahim, isma'il, ishaq, ya'qub dan anak cucunya
+apa yang diberikan kepada musa dan isa 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan sulaiman
+padahal sulaiman tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada adam nama-nama (benda-benda)
+hai adam, diamilah oleh kamu dan isterimu surga ini
+ketika ibrahim diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam ibrahim tempat shalat
+ketika ibrahim berdoa
+tidak ada yang benci kepada agama ibrahim
+ibrahim telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula ya'qub
+telah kami perintahkan kepada ibrahim dan ismail
+peninggalan keluarga musa dan keluarga harun
+ketika kami selamatkan kamu dari (fir'aun)
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+
+=======================================================================
+==src/main/resources/models/thing/annotatedSentences.txt
+=======================================================================
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+<START:person>adam<END>
+<START:person>idris<END>
+<START:person>nuh<END>
+<START:person>hud<END>
+<START:person>shaleh<END>
+<START:person>ibrahim<END>
+<START:person>luth<END>
+<START:person>ismail<END>
+
+=======================================================================
+==src/main/resources/models/person/knownentities.txt
+=======================================================================
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+ishaq
+ya’qub
+yusuf
+ayyub
+syu’aib
+musa
+harun
+dzulkifli
+daud
+sulaiman
+ilyas
+ilyasa’
+yunus
+zakaria
+yahya
+isa
+muhammad
+ahmad
+maryam
+fir'aun
+haman
+
+=======================================================================
+==src/main/resources/models/person/blentities.txt
+=======================================================================
+
+=======================================================================
+==src/main/resources/models/person/sentences.txt
+=======================================================================
+sesungguhnya musa telah datang kepadamu
+bani israil meminta kepada musa pada jaman dahulu
+sesungguhnya kami telah mengutusmu (muhammad)
+mengenal muhammad seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (muhammad)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera maryam
+apa yang diturunkan kepada ibrahim, isma'il, ishaq, ya'qub dan anak cucunya
+apa yang diberikan kepada musa dan isa 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan sulaiman
+padahal sulaiman tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada adam nama-nama (benda-benda)
+hai adam, diamilah oleh kamu dan isterimu surga ini
+ketika ibrahim diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam ibrahim tempat shalat
+ketika ibrahim berdoa
+tidak ada yang benci kepada agama ibrahim
+ibrahim telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula ya'qub
+telah kami perintahkan kepada ibrahim dan ismail
+peninggalan keluarga musa dan keluarga harun
+ketika kami selamatkan kamu dari (fir'aun)
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+ishaq
+ya’qub
+yusuf
+ayyub
+syu’aib
+musa
+harun
+dzulkifli
+daud
+sulaiman
+ilyas
+ilyasa’
+yunus
+zakaria
+yahya
+isa
+muhammad
+ahmad
+maryam
+fir'aun
+haman
+
+=======================================================================
+==src/main/resources/models/person/annotatedSentences.txt
+=======================================================================
+bani israil meminta kepada  <START:person> musa <END>  pada jaman dahulu
+padahal  <START:person> sulaiman <END>  tidak kafir (tidak mengerjakan sihir)
+ketika  <START:person> ibrahim <END>  diuji tuhannya dengan beberapa kalimat
+<START:person> ahmad <END>
+<START:person> zakaria <END>
+<START:person> dzulkifli <END>
+<START:person> hai <END>  adam, diamilah oleh kamu dan isterimu surga ini
+<START:person> istri nuh <END>
+<START:person> hawa <END>
+jadikanlah sebahagian maqam  <START:person> ibrahim <END>  tempat shalat
+apa yang diberikan kepada  <START:person> musa <END>  dan isa
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan  <START:person> sulaiman <END>
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera  <START:person> maryam <END>
+<START:person> shaleh <END>
+<START:person> zainab <END>
+<START:person> ya’qub <END>
+<START:person> abu jahal <END>
+<START:person> abdullah bin umi maktum <END>
+istri  <START:person> imran <END>
+istri  <START:person> zakaria <END>
+<START:person> khaulah binti tsa'labah <END>
+<START:person> dzulkarnain <END>
+<START:person> istri luth <END>
+apa yang diberikan kepada musa dan  <START:person> isa <END>
+<START:person> yunus <END>
+<START:person> musa <END>
+al- <START:person> aziz <END>
+<START:person> abdullah bin ubay <END>
+<START:person> demikian pula ya'qub <END>
+telah kami perintahkan kepada  <START:person> ibrahim <END>  dan ismail
+<START:person> idris <END>
+istri  <START:person> nuh <END>
+sesungguhnya musa telah datang kep <START:person> adam <END> u
+<START:person> istri ayyub <END>
+<START:person> ilyas <END> a’
+<START:person> yahya <END>
+<START:person> fir'aun <END>
+tidak ada yang benci kepada agama  <START:person> ibrahim <END>
+peninggalan keluarga musa dan keluarga  <START:person> harun <END>
+<START:person> zaid <END>
+al-aas  <START:person> ibn wael <END>
+mengenal  <START:person> muhammad <END>  seperti mereka mengenal anak-anaknya sendiri
+<START:person> ilyas <END>
+<START:person> ratu balqis <END>
+kami wahyukan kepada hamba kami ( <START:person> muhammad <END> )
+<START:person> isa <END>
+<START:person> imran <END>
+<START:person> yusuf <END>
+anak  <START:person> luqman <END>
+kami berikan bukti-bukti kebenaran (mukjizat) kepada  <START:person> isa <END>  putera maryam
+
+=======================================================================
+==src/main/resources/docs/output.xml
+=======================================================================
+<START:person> <sura <END> <START:person> index="2" <END> name="البقرة">
+<START:person> <aya <END> index="1" text="Alif <START:person> laam <END> miim."/>
+<START:person> <aya <END> <START:person> index="2" <END> text="Kitab (Al Quran) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,"/>
+<START:person> <aya <END> index="3" text="(yaitu) mereka yang beriman kepada yang ghaib, yang mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/>
+<START:person> <aya <END> index="4" text="dan mereka yang beriman kepada <START:person> Kitab <END> (Al Quran) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat."/>
+<START:person> <aya <END> index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung."/>
+<START:person> <aya <END> <START:person> index="6" <END> text="Sesungguhnya orang-orang kafir, sama saja bagi mereka, kamu beri peringatan atau tidak kamu beri peringatan, mereka tidak juga akan beriman."/>
+<START:person> <aya <END> index="7" text="Allah telah mengunci-mati hati dan pendengaran mereka, dan penglihatan mereka ditutup. Dan bagi mereka siksa yang amat berat."/>
+<START:person> <aya <END> index="8" text="Di antara manusia ada yang mengatakan: &quot;Kami beriman kepada Allah dan Hari kemudian,&quot; pada hal mereka itu sesungguhnya bukan orang-orang yang beriman."/>
+<START:person> <aya <END> index="9" text="Mereka <START:person> hendak <END> menipu Allah dan orang-orang yang beriman, padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/>
+<START:person> <aya <END> index="10" text="Dalam hati mereka ada penyakit, lalu ditambah Allah penyakitnya; dan bagi mereka siksa yang pedih, disebabkan mereka berdusta."/>
+<START:person> <aya <END> index="11" text="Dan bila dikatakan kepada mereka: &quot;Janganlah kamu membuat kerusakan di muka bumi&quot;. Mereka menjawab: &quot;Sesungguhnya kami orang-orang yang mengadakan perbaikan&quot;."/>
+<START:person> <aya <END> index="12" text="Ingatlah, sesungguhnya mereka itulah orang-orang yang membuat kerusakan, tetapi mereka tidak sadar."/>
+<START:person> <aya <END> index="13" text="Apabila dikatakan kepada mereka: &quot;Berimanlah kamu sebagaimana orang-orang lain telah beriman&quot;. Mereka menjawab: &quot;Akan berimankah kami sebagaimana orang-orang yang bodoh itu telah beriman?&quot; Ingatlah, sesungguhnya merekalah orang-orang yang bodoh; tetapi mereka tidak tahu."/>
+<START:person> <aya <END> index="14" text="Dan bila mereka berjumpa dengan orang-orang yang beriman, mereka mengatakan: &quot;Kami telah beriman&quot;. Dan bila mereka kembali kepada syaitan-syaitan mereka, mereka mengatakan: &quot;Sesungguhnya kami sependirian dengan kamu, kami hanyalah berolok-olok&quot;."/>
+<START:person> <aya <END> index="15" text="Allah <START:person> akan <END> (membalas) olok-olokan mereka dan membiarkan mereka terombang-ambing dalam kesesatan mereka."/>
+<START:person> <aya <END> index="16" text="Mereka itulah orang yang membeli kesesatan dengan petunjuk, maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/>
+<START:person> <aya <END> index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan api, maka setelah api itu menerangi sekelilingnya Allah hilangkan <START:person> cahaya <END> (yang menyinari) mereka, dan membiarkan mereka dalam kegelapan, tidak dapat melihat."/>
+<START:person> <aya <END> <START:person> index="18" <END> text="Mereka tuli, bisu dan buta, maka tidaklah mereka akan kembali (ke jalan yang benar),"/>
+<START:person> <aya <END> index="19" text="atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, <START:person> karena <END> (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir."/>
+<START:person> <aya <END> index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari mereka, mereka berjalan di bawah sinar itu, dan bila gelap menimpa mereka, <START:person> mereka <END> berhenti. Jikalau Allah menghendaki, <START:person> niscaya <END> Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya Allah berkuasa atas segala sesuatu."/>
+<START:person> <aya <END> <START:person> index="21" <END> text="Hai manusia, sembahlah Tuhanmu yang telah menciptakanmu dan orang-orang yang sebelummu, agar kamu bertakwa,"/>
+<START:person> <aya <END> index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai atap, dan Dia menurunkan air (hujan) dari langit, lalu Dia menghasilkan dengan hujan itu segala buah-buahan sebagai rezeki untukmu; karena itu janganlah kamu mengadakan sekutu-sekutu bagi Allah, padahal <START:person> kamu <END> mengetahui."/>
+<START:person> <aya <END> index="23" text="Dan jika kamu (tetap) dalam keraguan tentang Al Quran yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surat (saja) yang semisal Al Quran itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar."/>
+<START:person> <aya <END> index="24" text="Maka jika kamu tidak dapat membuat(nya) -- dan pasti kamu tidak akan dapat membuat(nya), peliharalah dirimu dari neraka yang bahan bakarnya manusia dan batu, yang disediakan bagi orang-orang kafir."/>
+<START:person> <aya <END> index="25" text="Dan sampaikanlah berita gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir sungai-sungai <START:person> di <END> dalamnya. Setiap mereka diberi rezeki buah-buahan dalam surga-surga itu, <START:person> mereka <END> mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi buah-buahan yang serupa dan untuk mereka di dalamnya ada isteri-isteri yang suci dan mereka kekal di dalamnya."/>
+<START:person> <aya <END> <START:person> index="26" <END> text="Sesungguhnya Allah tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun orang-orang yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan mereka, tetapi mereka yang kafir mengatakan: &quot;Apakah maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu (pula) banyak orang yang diberi-Nya petunjuk. Dan tidak ada yang disesatkan Allah kecuali orang-orang yang fasik,"/>
+<START:person> <aya <END> <START:person> index="27" <END> text="(yaitu) orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu teguh, dan memutuskan apa yang diperintahkan Allah (kepada mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. Mereka itulah orang-orang yang rugi."/>
+<START:person> <aya <END> index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya mati, lalu Allah menghidupkan kamu, kemudian kamu dimatikan dan dihidupkan-Nya kembali, kemudian kepada-Nya-lah <START:person> kamu <END> dikembalikan?"/>
+<START:person> <aya <END> <START:person> index="29" <END> text="Dialah Allah, yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) langit, lalu dijadikan-Nya <START:person> tujuh <END> langit. Dan <START:person> Dia <END> Maha Mengetahui <START:person> segala <END> sesuatu."/>
+<START:person> <aya <END> index="30" text="Ingatlah <START:person> ketika <END> Tuhanmu berfirman kepada para Malaikat: &quot;Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka <START:person> berkata: <END> &quot;Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan <START:person> mensucikan <END> Engkau?&quot; Tuhan <START:person> berfirman: <END> &quot;Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui&quot;."/>
+<START:person> <aya <END> <START:person> index="31" <END> text="Dan Dia mengajarkan kepada <START:person> Adam <END> nama-nama (benda-benda) seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu berfirman: &quot;Sebutkanlah kepada-Ku nama benda-benda itu jika kamu mamang benar orang-orang yang benar!&quot;"/>
+<START:person> <aya <END> <START:person> index="32" <END> text="Mereka <START:person> menjawab: <END> &quot;Maha Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada kami; sesungguhnya Engkaulah <START:person> Yang <END> Maha Mengetahui <START:person> lagi <END> Maha Bijaksana&quot;."/>
+<START:person> <aya <END> <START:person> index="33" <END> text="Allah berfirman: &quot;Hai Adam, beritahukanlah kepada mereka nama-nama <START:person> benda <END> ini&quot;. Maka setelah diberitahukannya kepada mereka nama-nama <START:person> benda <END> itu, Allah berfirman: &quot;Bukankah <START:person> sudah <END> Ku-katakan kepadamu, bahwa sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/>
+<START:person> <aya <END> <START:person> index="34" <END> text="Dan (ingatlah) ketika Kami berfirman kepada para malaikat: &quot;Sujudlah kamu kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan orang-orang yang kafir."/>
+<START:person> <aya <END> <START:person> index="35" <END> text="Dan Kami <START:person> berfirman: <END> &quot;Hai Adam, diamilah oleh kamu dan isterimu surga ini, dan makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu sukai, dan janganlah kamu dekati pohon ini, yang menyebabkan kamu termasuk orang-orang yang zalim."/>
+<START:person> <aya <END> index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami berfirman: &quot;Turunlah kamu! sebagian kamu menjadi musuh bagi yang lain, dan bagi kamu ada tempat kediaman di bumi, dan kesenangan hidup sampai waktu yang ditentukan&quot;."/>
+<START:person> <aya <END> <START:person> index="37" <END> text="Kemudian Adam menerima beberapa kalimat dari Tuhannya, maka Allah <START:person> menerima <END> taubatnya. Sesungguhnya Allah Maha Penerima <START:person> taubat lagi <END> Maha Penyayang."/>
+<START:person> <aya <END> <START:person> index="38" <END> text="Kami berfirman: &quot;Turunlah kamu semuanya dari surga itu! Kemudian jika datang petunjuk-Ku kepadamu, maka barang siapa yang mengikuti petunjuk-Ku, niscaya tidak ada kekhawatiran atas mereka, dan tidak (pula) mereka bersedih hati&quot;."/>
+<START:person> <aya <END> <START:person> index="39" <END> text="Adapun orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itu penghuni neraka; mereka kekal di dalamnya."/>
+<START:person> <aya <END> <START:person> index="40" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu, dan penuhilah janjimu kepada-Ku, niscaya Aku <START:person> penuhi <END> janji-Ku kepadamu; dan hanya kepada-Ku-lah kamu harus takut (tunduk)."/>
+<START:person> <aya <END> index="41" text="Dan berimanlah kamu kepada apa yang telah Aku turunkan (Al Quran) yang membenarkan apa yang ada padamu (Taurat), dan janganlah kamu menjadi orang yang pertama kafir kepadanya, dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang rendah, dan hanya kepada Akulah kamu <START:person> harus <END> bertakwa."/>
+<START:person> <aya <END> index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak itu, sedang kamu mengetahui."/>
+<START:person> <aya <END> index="43" text="Dan <START:person> dirikanlah <END> shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku'."/>
+<START:person> <aya <END> index="44" text="Mengapa kamu suruh orang lain (mengerjakan) kebaktian, sedang kamu melupakan diri (kewajiban)mu sendiri, padahal kamu membaca Al <START:person> Kitab <END> (Taurat)? Maka tidaklah <START:person> kamu <END> berpikir?"/>
+<START:person> <aya <END> index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. Dan sesungguhnya yang demikian itu sungguh berat, kecuali bagi orang-orang yang khusyu',"/>
+<START:person> <aya <END> <START:person> index="46" <END> text="(yaitu) orang-orang yang meyakini, bahwa mereka akan menemui Tuhannya, dan bahwa mereka akan kembali kepada-Nya."/>
+<START:person> <aya <END> <START:person> index="47" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu dan (ingatlah pula) bahwasanya Aku telah melebihkan kamu atas segala umat."/>
+<START:person> <aya <END> index="48" text="Dan jagalah dirimu dari (azab) hari (kiamat, yang pada hari itu) seseorang tidak dapat membela orang lain, walau sedikitpun; dan (begitu pula) tidak diterima syafa'at dan tebusan dari padanya, dan tidaklah mereka akan ditolong."/>
+<START:person> <aya <END> <START:person> index="49" <END> text="Dan (ingatlah) ketika Kami selamatkan kamu dari (Fir'aun) dan pengikut-pengikutnya; mereka menimpakan kepadamu siksaan yang seberat-beratnya, mereka menyembelih anak-anakmu yang laki-laki dan membiarkan hidup anak-anakmu yang perempuan. Dan pada yang demikian itu terdapat cobaan-cobaan yang besar dari Tuhanmu."/>
+
+=======================================================================
+==src/main/resources/docs/sura_2.xml
+=======================================================================
+	<sura index="2" name="البقرة">
+		<aya index="1" text="Alif laam miim."/>
+		<aya index="2" text="Kitab (Al Quran) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,"/>
+		<aya index="3" text="(yaitu) mereka yang beriman kepada yang ghaib, yang mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/>
+		<aya index="4" text="dan mereka yang beriman kepada Kitab (Al Quran) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat."/>
+		<aya index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung."/>
+		<aya index="6" text="Sesungguhnya orang-orang kafir, sama saja bagi mereka, kamu beri peringatan atau tidak kamu beri peringatan, mereka tidak juga akan beriman."/>
+		<aya index="7" text="Allah telah mengunci-mati hati dan pendengaran mereka, dan penglihatan mereka ditutup. Dan bagi mereka siksa yang amat berat."/>
+		<aya index="8" text="Di antara manusia ada yang mengatakan: &quot;Kami beriman kepada Allah dan Hari kemudian,&quot; pada hal mereka itu sesungguhnya bukan orang-orang yang beriman."/>
+		<aya index="9" text="Mereka hendak menipu Allah dan orang-orang yang beriman, padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/>
+		<aya index="10" text="Dalam hati mereka ada penyakit, lalu ditambah Allah penyakitnya; dan bagi mereka siksa yang pedih, disebabkan mereka berdusta."/>
+		<aya index="11" text="Dan bila dikatakan kepada mereka: &quot;Janganlah kamu membuat kerusakan di muka bumi&quot;. Mereka menjawab: &quot;Sesungguhnya kami orang-orang yang mengadakan perbaikan&quot;."/>
+		<aya index="12" text="Ingatlah, sesungguhnya mereka itulah orang-orang yang membuat kerusakan, tetapi mereka tidak sadar."/>
+		<aya index="13" text="Apabila dikatakan kepada mereka: &quot;Berimanlah kamu sebagaimana orang-orang lain telah beriman&quot;. Mereka menjawab: &quot;Akan berimankah kami sebagaimana orang-orang yang bodoh itu telah beriman?&quot; Ingatlah, sesungguhnya merekalah orang-orang yang bodoh; tetapi mereka tidak tahu."/>
+		<aya index="14" text="Dan bila mereka berjumpa dengan orang-orang yang beriman, mereka mengatakan: &quot;Kami telah beriman&quot;. Dan bila mereka kembali kepada syaitan-syaitan mereka, mereka mengatakan: &quot;Sesungguhnya kami sependirian dengan kamu, kami hanyalah berolok-olok&quot;."/>
+		<aya index="15" text="Allah akan (membalas) olok-olokan mereka dan membiarkan mereka terombang-ambing dalam kesesatan mereka."/>
+		<aya index="16" text="Mereka itulah orang yang membeli kesesatan dengan petunjuk, maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/>
+		<aya index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan api, maka setelah api itu menerangi sekelilingnya Allah hilangkan cahaya (yang menyinari) mereka, dan membiarkan mereka dalam kegelapan, tidak dapat melihat."/>
+		<aya index="18" text="Mereka tuli, bisu dan buta, maka tidaklah mereka akan kembali (ke jalan yang benar),"/>
+		<aya index="19" text="atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, karena (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir."/>
+		<aya index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari mereka, mereka berjalan di bawah sinar itu, dan bila gelap menimpa mereka, mereka berhenti. Jikalau Allah menghendaki, niscaya Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya Allah berkuasa atas segala sesuatu."/>
+		<aya index="21" text="Hai manusia, sembahlah Tuhanmu yang telah menciptakanmu dan orang-orang yang sebelummu, agar kamu bertakwa,"/>
+		<aya index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai atap, dan Dia menurunkan air (hujan) dari langit, lalu Dia menghasilkan dengan hujan itu segala buah-buahan sebagai rezeki untukmu; karena itu janganlah kamu mengadakan sekutu-sekutu bagi Allah, padahal kamu mengetahui."/>
+		<aya index="23" text="Dan jika kamu (tetap) dalam keraguan tentang Al Quran yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surat (saja) yang semisal Al Quran itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar."/>
+		<aya index="24" text="Maka jika kamu tidak dapat membuat(nya) -- dan pasti kamu tidak akan dapat membuat(nya), peliharalah dirimu dari neraka yang bahan bakarnya manusia dan batu, yang disediakan bagi orang-orang kafir."/>
+		<aya index="25" text="Dan sampaikanlah berita gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir sungai-sungai di dalamnya. Setiap mereka diberi rezeki buah-buahan dalam surga-surga itu, mereka mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi buah-buahan yang serupa dan untuk mereka di dalamnya ada isteri-isteri yang suci dan mereka kekal di dalamnya."/>
+		<aya index="26" text="Sesungguhnya Allah tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun orang-orang yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan mereka, tetapi mereka yang kafir mengatakan: &quot;Apakah maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu (pula) banyak orang yang diberi-Nya petunjuk. Dan tidak ada yang disesatkan Allah kecuali orang-orang yang fasik,"/>
+		<aya index="27" text="(yaitu) orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu teguh, dan memutuskan apa yang diperintahkan Allah (kepada mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. Mereka itulah orang-orang yang rugi."/>
+		<aya index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya mati, lalu Allah menghidupkan kamu, kemudian kamu dimatikan dan dihidupkan-Nya kembali, kemudian kepada-Nya-lah kamu dikembalikan?"/>
+		<aya index="29" text="Dialah Allah, yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) langit, lalu dijadikan-Nya tujuh langit. Dan Dia Maha Mengetahui segala sesuatu."/>
+		<aya index="30" text="Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: &quot;Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka berkata: &quot;Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan mensucikan Engkau?&quot; Tuhan berfirman: &quot;Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui&quot;."/>
+		<aya index="31" text="Dan Dia mengajarkan kepada Adam nama-nama (benda-benda) seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu berfirman: &quot;Sebutkanlah kepada-Ku nama benda-benda itu jika kamu mamang benar orang-orang yang benar!&quot;"/>
+		<aya index="32" text="Mereka menjawab: &quot;Maha Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada kami; sesungguhnya Engkaulah Yang Maha Mengetahui lagi Maha Bijaksana&quot;."/>
+		<aya index="33" text="Allah berfirman: &quot;Hai Adam, beritahukanlah kepada mereka nama-nama benda ini&quot;. Maka setelah diberitahukannya kepada mereka nama-nama benda itu, Allah berfirman: &quot;Bukankah sudah Ku-katakan kepadamu, bahwa sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/>
+		<aya index="34" text="Dan (ingatlah) ketika Kami berfirman kepada para malaikat: &quot;Sujudlah kamu kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan orang-orang yang kafir."/>
+		<aya index="35" text="Dan Kami berfirman: &quot;Hai Adam, diamilah oleh kamu dan isterimu surga ini, dan makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu sukai, dan janganlah kamu dekati pohon ini, yang menyebabkan kamu termasuk orang-orang yang zalim."/>
+		<aya index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami berfirman: &quot;Turunlah kamu! sebagian kamu menjadi musuh bagi yang lain, dan bagi kamu ada tempat kediaman di bumi, dan kesenangan hidup sampai waktu yang ditentukan&quot;."/>
+		<aya index="37" text="Kemudian Adam menerima beberapa kalimat dari Tuhannya, maka Allah menerima taubatnya. Sesungguhnya Allah Maha Penerima taubat lagi Maha Penyayang."/>
+		<aya index="38" text="Kami berfirman: &quot;Turunlah kamu semuanya dari surga itu! Kemudian jika datang petunjuk-Ku kepadamu, maka barang siapa yang mengikuti petunjuk-Ku, niscaya tidak ada kekhawatiran atas mereka, dan tidak (pula) mereka bersedih hati&quot;."/>
+		<aya index="39" text="Adapun orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itu penghuni neraka; mereka kekal di dalamnya."/>
+		<aya index="40" text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu, dan penuhilah janjimu kepada-Ku, niscaya Aku penuhi janji-Ku kepadamu; dan hanya kepada-Ku-lah kamu harus takut (tunduk)."/>
+		<aya index="41" text="Dan berimanlah kamu kepada apa yang telah Aku turunkan (Al Quran) yang membenarkan apa yang ada padamu (Taurat), dan janganlah kamu menjadi orang yang pertama kafir kepadanya, dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang rendah, dan hanya kepada Akulah kamu harus bertakwa."/>
+		<aya index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak itu, sedang kamu mengetahui."/>
+		<aya index="43" text="Dan dirikanlah shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku'."/>
+		<aya index="44" text="Mengapa kamu suruh orang lain (mengerjakan) kebaktian, sedang kamu melupakan diri (kewajiban)mu sendiri, padahal kamu membaca Al Kitab (Taurat)? Maka tidaklah kamu berpikir?"/>
+		<aya index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. Dan sesungguhnya yang demikian itu sungguh berat, kecuali bagi orang-orang yang khusyu',"/>
+		<aya index="46" text="(yaitu) orang-orang yang meyakini, bahwa mereka akan menemui Tuhannya, dan bahwa mereka akan kembali kepada-Nya."/>
+		<aya index="47" text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu dan (ingatlah pula) bahwasanya Aku telah melebihkan kamu atas segala umat."/>
+		<aya index="48" text="Dan jagalah dirimu dari (azab) hari (kiamat, yang pada hari itu) seseorang tidak dapat membela orang lain, walau sedikitpun; dan (begitu pula) tidak diterima syafa'at dan tebusan dari padanya, dan tidaklah mereka akan ditolong."/>
+		<aya index="49" text="Dan (ingatlah) ketika Kami selamatkan kamu dari (Fir'aun) dan pengikut-pengikutnya; mereka menimpakan kepadamu siksaan yang seberat-beratnya, mereka menyembelih anak-anakmu yang laki-laki dan membiarkan hidup anak-anakmu yang perempuan. Dan pada yang demikian itu terdapat cobaan-cobaan yang besar dari Tuhanmu."/>
+
+=======================================================================
+==src/main/java/com/itq/TestApp.java
+=======================================================================
+package com.itq;
+
+public class TestApp 
+{
+    public static void main( String[] args )
+    {
+        System.out.println("Haloo" + args[0]);
+    }
+}
+
+=======================================================================
+==src/main/java/com/itq/ner/CreateModel.java
+=======================================================================
+/**
+ * 
+ */
+package com.itq.ner;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+import opennlp.addons.modelbuilder.DefaultModelBuilderUtil;
+import opennlp.tools.namefind.NameFinderME;
+import opennlp.tools.namefind.TokenNameFinderModel;
+import opennlp.tools.util.Span;
+
+/**
+ * @author A039883
+ *
+ */
+public class CreateModel {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+		
+		String modelType = args[0];
+
+		/**
+	     * establish a file to put sentences in
+	     */
+	    File sentences = new File("classes/models/"+modelType+"/sentences.txt");
+
+	    /**
+	     * establish a file to put your NER hits in (the ones you want to keep based on prob)
+	     */
+	    File knownEntities = new File("classes/models/"+modelType+"/knownentities.txt");
+
+	    /**
+	     * establish a BLACKLIST file to put your bad NER hits in (also can be based on prob)
+	     */
+	    File blacklistedentities = new File("classes/models/"+modelType+"/blentities.txt");
+
+	    /**
+	     * establish a file to write your annotated sentences to
+	     */
+	    File annotatedSentences = new File("classes/models/"+modelType+"/annotatedSentences.txt");
+
+	    /**
+
+=======================================================================
+==src/test/java/modelbuilder/AppTest.java
+=======================================================================
+package modelbuilder;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+=======================================================================
+==models/location/knownentities.txt
+=======================================================================
+surga
+neraka
+bumi
+langit
+muka bumi
+mekkah
+madinah
+Bani-Nadir Houses
+Banu-Qurayza Forts
+The mosque which the hypocrite took
+ka'bah
+masjidil haram
+masjidil aqsa
+masjid quba
+The garden of Adam and Eve
+Al-Aaraf
+baitul ma'mur
+Divine Lote Tree
+Al-Hijr
+antiokhia
+ayla
+babilon
+bakkah
+Lut village
+madyan
+city of cave People
+Pharaoh's City
+Sea Capital
+Iram
+Jerusalem
+Yathrib
+Yunus village
+Ta'if
+Al-Ahqaf
+Egypt
+Blessed place
+The Cave
+Holy land
+Levant
+Land of wandering
+LowestLand
+Two seas
+Sheba
+Thor Cave
+Al-Judi
+Al-Marwah
+Al-Safa
+Mount Sinai
+Two mountains
+Mashar-il-Haram
+
+=======================================================================
+==models/location/blentities.txt
+=======================================================================
+
+=======================================================================
+==models/location/sentences.txt
+=======================================================================
+sesungguhnya musa telah datang kepadamu
+bani israil meminta kepada musa pada jaman dahulu
+sesungguhnya kami telah mengutusmu (muhammad)
+mengenal muhammad seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (muhammad)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera maryam
+apa yang diturunkan kepada ibrahim, isma'il, ishaq, ya'qub dan anak cucunya
+apa yang diberikan kepada musa dan isa 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan sulaiman
+padahal sulaiman tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada adam nama-nama (benda-benda)
+hai adam, diamilah oleh kamu dan isterimu surga ini
+ketika ibrahim diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam ibrahim tempat shalat
+ketika ibrahim berdoa
+tidak ada yang benci kepada agama ibrahim
+ibrahim telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula ya'qub
+telah kami perintahkan kepada ibrahim dan ismail
+peninggalan keluarga musa dan keluarga harun
+ketika kami selamatkan kamu dari (fir'aun)
+
+=======================================================================
+==models/location/annotatedSentences.txt
+=======================================================================
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+
+=======================================================================
+==models/thing/knownentities.txt
+=======================================================================
+kera
+anak sapi
+unta
+singa
+serigala
+sapi
+domba
+anjing
+keledai
+gajah
+ikan
+katak
+kambing
+kuda
+bagal
+ular
+babi
+sapi
+hewan karnivora
+makhluk hidup
+akasia
+alfalfa
+poa annua
+pohon bad
+kemangi
+kamper
+tanaman
+ketimun
+kurma
+ara
+bawang putih
+jahe
+kundur
+anggur
+rumput
+herba
+sekam
+daun
+miju-miju
+pohon lote
+tanaman mustard
+zaitun
+bawang
+delima
+salvadora persica
+pohon atsl
+pohon sidr
+tamarix
+tanaman berduri
+pohon
+
+=======================================================================
+==models/thing/blentities.txt
+=======================================================================
+
+=======================================================================
+==models/thing/sentences.txt
+=======================================================================
+sesungguhnya musa telah datang kepadamu
+bani israil meminta kepada musa pada jaman dahulu
+sesungguhnya kami telah mengutusmu (muhammad)
+mengenal muhammad seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (muhammad)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera maryam
+apa yang diturunkan kepada ibrahim, isma'il, ishaq, ya'qub dan anak cucunya
+apa yang diberikan kepada musa dan isa 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan sulaiman
+padahal sulaiman tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada adam nama-nama (benda-benda)
+hai adam, diamilah oleh kamu dan isterimu surga ini
+ketika ibrahim diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam ibrahim tempat shalat
+ketika ibrahim berdoa
+tidak ada yang benci kepada agama ibrahim
+ibrahim telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula ya'qub
+telah kami perintahkan kepada ibrahim dan ismail
+peninggalan keluarga musa dan keluarga harun
+ketika kami selamatkan kamu dari (fir'aun)
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+
+=======================================================================
+==models/thing/annotatedSentences.txt
+=======================================================================
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+<START:person>adam<END>
+<START:person>idris<END>
+<START:person>nuh<END>
+<START:person>hud<END>
+<START:person>shaleh<END>
+<START:person>ibrahim<END>
+<START:person>luth<END>
+<START:person>ismail<END>
+
+=======================================================================
+==models/person/knownentities.txt
+=======================================================================
+sesungguhnya <START:person> musa <END> telah datang kepadamu
+bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
+sesungguhnya kami telah mengutusmu (<START:person> muhammad <END>)
+mengenal <START:person> muhammad <END> seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (<START:person> muhammad <END>)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada <START:person> isa <END> putera <START:person> maryam <END>
+apa yang diturunkan kepada <START:person> ibrahim <END>, <START:person> isma'il <END>, <START:person> ishaq <END>, <START:person> ya'qub <END> dan anak cucunya
+apa yang diberikan kepada <START:person> musa <END> dan <START:person> isa <END> 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan <START:person> sulaiman <END>
+padahal <START:person> sulaiman <END> tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada <START:person> adam <END> nama-nama (benda-benda)
+hai <START:person> adam <END>, diamilah oleh kamu dan isterimu surga ini
+ketika <START:person> ibrahim <END> diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam <START:person> ibrahim <END> tempat shalat
+ketika <START:person> ibrahim <END> berdoa
+tidak ada yang benci kepada agama <START:person> ibrahim <END>
+<START:person> ibrahim <END> telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula <START:person> ya'qub <END>
+telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
+peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
+ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+ishaq
+ya’qub
+yusuf
+ayyub
+syu’aib
+musa
+harun
+dzulkifli
+daud
+sulaiman
+ilyas
+ilyasa’
+yunus
+zakaria
+yahya
+isa
+muhammad
+ahmad
+maryam
+fir'aun
+haman
+
+=======================================================================
+==models/person/blentities.txt
+=======================================================================
+
+=======================================================================
+==models/person/sentences.txt
+=======================================================================
+sesungguhnya musa telah datang kepadamu
+bani israil meminta kepada musa pada jaman dahulu
+sesungguhnya kami telah mengutusmu (muhammad)
+mengenal muhammad seperti mereka mengenal anak-anaknya sendiri
+kami wahyukan kepada hamba kami (muhammad)
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera maryam
+apa yang diturunkan kepada ibrahim, isma'il, ishaq, ya'qub dan anak cucunya
+apa yang diberikan kepada musa dan isa 
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan sulaiman
+padahal sulaiman tidak kafir (tidak mengerjakan sihir)
+dia mengajarkan kepada adam nama-nama (benda-benda)
+hai adam, diamilah oleh kamu dan isterimu surga ini
+ketika ibrahim diuji tuhannya dengan beberapa kalimat
+jadikanlah sebahagian maqam ibrahim tempat shalat
+ketika ibrahim berdoa
+tidak ada yang benci kepada agama ibrahim
+ibrahim telah mewasiatkan ucapan itu kepada anak-anaknya
+demikian pula ya'qub
+telah kami perintahkan kepada ibrahim dan ismail
+peninggalan keluarga musa dan keluarga harun
+ketika kami selamatkan kamu dari (fir'aun)
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+ishaq
+ya’qub
+yusuf
+ayyub
+syu’aib
+musa
+harun
+dzulkifli
+daud
+sulaiman
+ilyas
+ilyasa’
+yunus
+zakaria
+yahya
+isa
+muhammad
+ahmad
+maryam
+fir'aun
+haman
+
+=======================================================================
+==models/person/annotatedSentences.txt
+=======================================================================
+bani israil meminta kepada  <START:person> musa <END>  pada jaman dahulu
+padahal  <START:person> sulaiman <END>  tidak kafir (tidak mengerjakan sihir)
+ketika  <START:person> ibrahim <END>  diuji tuhannya dengan beberapa kalimat
+<START:person> ahmad <END>
+<START:person> zakaria <END>
+<START:person> dzulkifli <END>
+<START:person> hai <END>  adam, diamilah oleh kamu dan isterimu surga ini
+<START:person> istri nuh <END>
+<START:person> hawa <END>
+jadikanlah sebahagian maqam  <START:person> ibrahim <END>  tempat shalat
+apa yang diberikan kepada  <START:person> musa <END>  dan isa
+apa yang dibaca oleh syaitan-syaitan pada masa kerajaan  <START:person> sulaiman <END>
+kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera  <START:person> maryam <END>
+<START:person> shaleh <END>
+<START:person> zainab <END>
+<START:person> ya’qub <END>
+<START:person> abu jahal <END>
+<START:person> abdullah bin umi maktum <END>
+istri  <START:person> imran <END>
+istri  <START:person> zakaria <END>
+<START:person> khaulah binti tsa'labah <END>
+<START:person> dzulkarnain <END>
+<START:person> istri luth <END>
+apa yang diberikan kepada musa dan  <START:person> isa <END>
+<START:person> yunus <END>
+<START:person> musa <END>
+al- <START:person> aziz <END>
+<START:person> abdullah bin ubay <END>
+<START:person> demikian pula ya'qub <END>
+telah kami perintahkan kepada  <START:person> ibrahim <END>  dan ismail
+<START:person> idris <END>
+istri  <START:person> nuh <END>
+sesungguhnya musa telah datang kep <START:person> adam <END> u
+<START:person> istri ayyub <END>
+<START:person> ilyas <END> a’
+<START:person> yahya <END>
+<START:person> fir'aun <END>
+tidak ada yang benci kepada agama  <START:person> ibrahim <END>
+peninggalan keluarga musa dan keluarga  <START:person> harun <END>
+<START:person> zaid <END>
+al-aas  <START:person> ibn wael <END>
+mengenal  <START:person> muhammad <END>  seperti mereka mengenal anak-anaknya sendiri
+<START:person> ilyas <END>
+<START:person> ratu balqis <END>
+kami wahyukan kepada hamba kami ( <START:person> muhammad <END> )
+<START:person> isa <END>
+<START:person> imran <END>
+<START:person> yusuf <END>
+anak  <START:person> luqman <END>
+kami berikan bukti-bukti kebenaran (mukjizat) kepada  <START:person> isa <END>  putera maryam
+
+=======================================================================
+==docs/output.xml
+=======================================================================
+<START:person> <sura <END> <START:person> index="2" <END> name="البقرة">
+<START:person> <aya <END> index="1" text="Alif <START:person> laam <END> miim."/>
+<START:person> <aya <END> <START:person> index="2" <END> text="Kitab (Al Quran) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,"/>
+<START:person> <aya <END> index="3" text="(yaitu) mereka yang beriman kepada yang ghaib, yang mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/>
+<START:person> <aya <END> index="4" text="dan mereka yang beriman kepada <START:person> Kitab <END> (Al Quran) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat."/>
+<START:person> <aya <END> index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung."/>
+<START:person> <aya <END> <START:person> index="6" <END> text="Sesungguhnya orang-orang kafir, sama saja bagi mereka, kamu beri peringatan atau tidak kamu beri peringatan, mereka tidak juga akan beriman."/>
+<START:person> <aya <END> index="7" text="Allah telah mengunci-mati hati dan pendengaran mereka, dan penglihatan mereka ditutup. Dan bagi mereka siksa yang amat berat."/>
+<START:person> <aya <END> index="8" text="Di antara manusia ada yang mengatakan: &quot;Kami beriman kepada Allah dan Hari kemudian,&quot; pada hal mereka itu sesungguhnya bukan orang-orang yang beriman."/>
+<START:person> <aya <END> index="9" text="Mereka <START:person> hendak <END> menipu Allah dan orang-orang yang beriman, padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/>
+<START:person> <aya <END> index="10" text="Dalam hati mereka ada penyakit, lalu ditambah Allah penyakitnya; dan bagi mereka siksa yang pedih, disebabkan mereka berdusta."/>
+<START:person> <aya <END> index="11" text="Dan bila dikatakan kepada mereka: &quot;Janganlah kamu membuat kerusakan di muka bumi&quot;. Mereka menjawab: &quot;Sesungguhnya kami orang-orang yang mengadakan perbaikan&quot;."/>
+<START:person> <aya <END> index="12" text="Ingatlah, sesungguhnya mereka itulah orang-orang yang membuat kerusakan, tetapi mereka tidak sadar."/>
+<START:person> <aya <END> index="13" text="Apabila dikatakan kepada mereka: &quot;Berimanlah kamu sebagaimana orang-orang lain telah beriman&quot;. Mereka menjawab: &quot;Akan berimankah kami sebagaimana orang-orang yang bodoh itu telah beriman?&quot; Ingatlah, sesungguhnya merekalah orang-orang yang bodoh; tetapi mereka tidak tahu."/>
+<START:person> <aya <END> index="14" text="Dan bila mereka berjumpa dengan orang-orang yang beriman, mereka mengatakan: &quot;Kami telah beriman&quot;. Dan bila mereka kembali kepada syaitan-syaitan mereka, mereka mengatakan: &quot;Sesungguhnya kami sependirian dengan kamu, kami hanyalah berolok-olok&quot;."/>
+<START:person> <aya <END> index="15" text="Allah <START:person> akan <END> (membalas) olok-olokan mereka dan membiarkan mereka terombang-ambing dalam kesesatan mereka."/>
+<START:person> <aya <END> index="16" text="Mereka itulah orang yang membeli kesesatan dengan petunjuk, maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/>
+<START:person> <aya <END> index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan api, maka setelah api itu menerangi sekelilingnya Allah hilangkan <START:person> cahaya <END> (yang menyinari) mereka, dan membiarkan mereka dalam kegelapan, tidak dapat melihat."/>
+<START:person> <aya <END> <START:person> index="18" <END> text="Mereka tuli, bisu dan buta, maka tidaklah mereka akan kembali (ke jalan yang benar),"/>
+<START:person> <aya <END> index="19" text="atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, <START:person> karena <END> (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir."/>
+<START:person> <aya <END> index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari mereka, mereka berjalan di bawah sinar itu, dan bila gelap menimpa mereka, <START:person> mereka <END> berhenti. Jikalau Allah menghendaki, <START:person> niscaya <END> Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya Allah berkuasa atas segala sesuatu."/>
+<START:person> <aya <END> <START:person> index="21" <END> text="Hai manusia, sembahlah Tuhanmu yang telah menciptakanmu dan orang-orang yang sebelummu, agar kamu bertakwa,"/>
+<START:person> <aya <END> index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai atap, dan Dia menurunkan air (hujan) dari langit, lalu Dia menghasilkan dengan hujan itu segala buah-buahan sebagai rezeki untukmu; karena itu janganlah kamu mengadakan sekutu-sekutu bagi Allah, padahal <START:person> kamu <END> mengetahui."/>
+<START:person> <aya <END> index="23" text="Dan jika kamu (tetap) dalam keraguan tentang Al Quran yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surat (saja) yang semisal Al Quran itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar."/>
+<START:person> <aya <END> index="24" text="Maka jika kamu tidak dapat membuat(nya) -- dan pasti kamu tidak akan dapat membuat(nya), peliharalah dirimu dari neraka yang bahan bakarnya manusia dan batu, yang disediakan bagi orang-orang kafir."/>
+<START:person> <aya <END> index="25" text="Dan sampaikanlah berita gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir sungai-sungai <START:person> di <END> dalamnya. Setiap mereka diberi rezeki buah-buahan dalam surga-surga itu, <START:person> mereka <END> mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi buah-buahan yang serupa dan untuk mereka di dalamnya ada isteri-isteri yang suci dan mereka kekal di dalamnya."/>
+<START:person> <aya <END> <START:person> index="26" <END> text="Sesungguhnya Allah tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun orang-orang yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan mereka, tetapi mereka yang kafir mengatakan: &quot;Apakah maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu (pula) banyak orang yang diberi-Nya petunjuk. Dan tidak ada yang disesatkan Allah kecuali orang-orang yang fasik,"/>
+<START:person> <aya <END> <START:person> index="27" <END> text="(yaitu) orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu teguh, dan memutuskan apa yang diperintahkan Allah (kepada mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. Mereka itulah orang-orang yang rugi."/>
+<START:person> <aya <END> index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya mati, lalu Allah menghidupkan kamu, kemudian kamu dimatikan dan dihidupkan-Nya kembali, kemudian kepada-Nya-lah <START:person> kamu <END> dikembalikan?"/>
+<START:person> <aya <END> <START:person> index="29" <END> text="Dialah Allah, yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) langit, lalu dijadikan-Nya <START:person> tujuh <END> langit. Dan <START:person> Dia <END> Maha Mengetahui <START:person> segala <END> sesuatu."/>
+<START:person> <aya <END> index="30" text="Ingatlah <START:person> ketika <END> Tuhanmu berfirman kepada para Malaikat: &quot;Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka <START:person> berkata: <END> &quot;Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan <START:person> mensucikan <END> Engkau?&quot; Tuhan <START:person> berfirman: <END> &quot;Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui&quot;."/>
+<START:person> <aya <END> <START:person> index="31" <END> text="Dan Dia mengajarkan kepada <START:person> Adam <END> nama-nama (benda-benda) seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu berfirman: &quot;Sebutkanlah kepada-Ku nama benda-benda itu jika kamu mamang benar orang-orang yang benar!&quot;"/>
+<START:person> <aya <END> <START:person> index="32" <END> text="Mereka <START:person> menjawab: <END> &quot;Maha Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada kami; sesungguhnya Engkaulah <START:person> Yang <END> Maha Mengetahui <START:person> lagi <END> Maha Bijaksana&quot;."/>
+<START:person> <aya <END> <START:person> index="33" <END> text="Allah berfirman: &quot;Hai Adam, beritahukanlah kepada mereka nama-nama <START:person> benda <END> ini&quot;. Maka setelah diberitahukannya kepada mereka nama-nama <START:person> benda <END> itu, Allah berfirman: &quot;Bukankah <START:person> sudah <END> Ku-katakan kepadamu, bahwa sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/>
+<START:person> <aya <END> <START:person> index="34" <END> text="Dan (ingatlah) ketika Kami berfirman kepada para malaikat: &quot;Sujudlah kamu kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan orang-orang yang kafir."/>
+<START:person> <aya <END> <START:person> index="35" <END> text="Dan Kami <START:person> berfirman: <END> &quot;Hai Adam, diamilah oleh kamu dan isterimu surga ini, dan makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu sukai, dan janganlah kamu dekati pohon ini, yang menyebabkan kamu termasuk orang-orang yang zalim."/>
+<START:person> <aya <END> index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami berfirman: &quot;Turunlah kamu! sebagian kamu menjadi musuh bagi yang lain, dan bagi kamu ada tempat kediaman di bumi, dan kesenangan hidup sampai waktu yang ditentukan&quot;."/>
+<START:person> <aya <END> <START:person> index="37" <END> text="Kemudian Adam menerima beberapa kalimat dari Tuhannya, maka Allah <START:person> menerima <END> taubatnya. Sesungguhnya Allah Maha Penerima <START:person> taubat lagi <END> Maha Penyayang."/>
+<START:person> <aya <END> <START:person> index="38" <END> text="Kami berfirman: &quot;Turunlah kamu semuanya dari surga itu! Kemudian jika datang petunjuk-Ku kepadamu, maka barang siapa yang mengikuti petunjuk-Ku, niscaya tidak ada kekhawatiran atas mereka, dan tidak (pula) mereka bersedih hati&quot;."/>
+<START:person> <aya <END> <START:person> index="39" <END> text="Adapun orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itu penghuni neraka; mereka kekal di dalamnya."/>
+<START:person> <aya <END> <START:person> index="40" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu, dan penuhilah janjimu kepada-Ku, niscaya Aku <START:person> penuhi <END> janji-Ku kepadamu; dan hanya kepada-Ku-lah kamu harus takut (tunduk)."/>
+<START:person> <aya <END> index="41" text="Dan berimanlah kamu kepada apa yang telah Aku turunkan (Al Quran) yang membenarkan apa yang ada padamu (Taurat), dan janganlah kamu menjadi orang yang pertama kafir kepadanya, dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang rendah, dan hanya kepada Akulah kamu <START:person> harus <END> bertakwa."/>
+<START:person> <aya <END> index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak itu, sedang kamu mengetahui."/>
+<START:person> <aya <END> index="43" text="Dan <START:person> dirikanlah <END> shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku'."/>
+<START:person> <aya <END> index="44" text="Mengapa kamu suruh orang lain (mengerjakan) kebaktian, sedang kamu melupakan diri (kewajiban)mu sendiri, padahal kamu membaca Al <START:person> Kitab <END> (Taurat)? Maka tidaklah <START:person> kamu <END> berpikir?"/>
+<START:person> <aya <END> index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. Dan sesungguhnya yang demikian itu sungguh berat, kecuali bagi orang-orang yang khusyu',"/>
+<START:person> <aya <END> <START:person> index="46" <END> text="(yaitu) orang-orang yang meyakini, bahwa mereka akan menemui Tuhannya, dan bahwa mereka akan kembali kepada-Nya."/>
+<START:person> <aya <END> <START:person> index="47" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu dan (ingatlah pula) bahwasanya Aku telah melebihkan kamu atas segala umat."/>
+<START:person> <aya <END> index="48" text="Dan jagalah dirimu dari (azab) hari (kiamat, yang pada hari itu) seseorang tidak dapat membela orang lain, walau sedikitpun; dan (begitu pula) tidak diterima syafa'at dan tebusan dari padanya, dan tidaklah mereka akan ditolong."/>
+<START:person> <aya <END> <START:person> index="49" <END> text="Dan (ingatlah) ketika Kami selamatkan kamu dari (Fir'aun) dan pengikut-pengikutnya; mereka menimpakan kepadamu siksaan yang seberat-beratnya, mereka menyembelih anak-anakmu yang laki-laki dan membiarkan hidup anak-anakmu yang perempuan. Dan pada yang demikian itu terdapat cobaan-cobaan yang besar dari Tuhanmu."/>
+
+=======================================================================
+==docs/sura_2.xml
+=======================================================================
+	<sura index="2" name="البقرة">
+		<aya index="1" text="Alif laam miim."/>
+		<aya index="2" text="Kitab (Al Quran) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,"/>
+		<aya index="3" text="(yaitu) mereka yang beriman kepada yang ghaib, yang mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/>
+		<aya index="4" text="dan mereka yang beriman kepada Kitab (Al Quran) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat."/>
+		<aya index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung."/>
+		<aya index="6" text="Sesungguhnya orang-orang kafir, sama saja bagi mereka, kamu beri peringatan atau tidak kamu beri peringatan, mereka tidak juga akan beriman."/>
+		<aya index="7" text="Allah telah mengunci-mati hati dan pendengaran mereka, dan penglihatan mereka ditutup. Dan bagi mereka siksa yang amat berat."/>
+		<aya index="8" text="Di antara manusia ada yang mengatakan: &quot;Kami beriman kepada Allah dan Hari kemudian,&quot; pada hal mereka itu sesungguhnya bukan orang-orang yang beriman."/>
+		<aya index="9" text="Mereka hendak menipu Allah dan orang-orang yang beriman, padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/>
+		<aya index="10" text="Dalam hati mereka ada penyakit, lalu ditambah Allah penyakitnya; dan bagi mereka siksa yang pedih, disebabkan mereka berdusta."/>
+		<aya index="11" text="Dan bila dikatakan kepada mereka: &quot;Janganlah kamu membuat kerusakan di muka bumi&quot;. Mereka menjawab: &quot;Sesungguhnya kami orang-orang yang mengadakan perbaikan&quot;."/>
+		<aya index="12" text="Ingatlah, sesungguhnya mereka itulah orang-orang yang membuat kerusakan, tetapi mereka tidak sadar."/>
+		<aya index="13" text="Apabila dikatakan kepada mereka: &quot;Berimanlah kamu sebagaimana orang-orang lain telah beriman&quot;. Mereka menjawab: &quot;Akan berimankah kami sebagaimana orang-orang yang bodoh itu telah beriman?&quot; Ingatlah, sesungguhnya merekalah orang-orang yang bodoh; tetapi mereka tidak tahu."/>
+		<aya index="14" text="Dan bila mereka berjumpa dengan orang-orang yang beriman, mereka mengatakan: &quot;Kami telah beriman&quot;. Dan bila mereka kembali kepada syaitan-syaitan mereka, mereka mengatakan: &quot;Sesungguhnya kami sependirian dengan kamu, kami hanyalah berolok-olok&quot;."/>
+		<aya index="15" text="Allah akan (membalas) olok-olokan mereka dan membiarkan mereka terombang-ambing dalam kesesatan mereka."/>
+		<aya index="16" text="Mereka itulah orang yang membeli kesesatan dengan petunjuk, maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/>
+		<aya index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan api, maka setelah api itu menerangi sekelilingnya Allah hilangkan cahaya (yang menyinari) mereka, dan membiarkan mereka dalam kegelapan, tidak dapat melihat."/>
+		<aya index="18" text="Mereka tuli, bisu dan buta, maka tidaklah mereka akan kembali (ke jalan yang benar),"/>
+		<aya index="19" text="atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, karena (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir."/>
+		<aya index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari mereka, mereka berjalan di bawah sinar itu, dan bila gelap menimpa mereka, mereka berhenti. Jikalau Allah menghendaki, niscaya Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya Allah berkuasa atas segala sesuatu."/>
+		<aya index="21" text="Hai manusia, sembahlah Tuhanmu yang telah menciptakanmu dan orang-orang yang sebelummu, agar kamu bertakwa,"/>
+		<aya index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai atap, dan Dia menurunkan air (hujan) dari langit, lalu Dia menghasilkan dengan hujan itu segala buah-buahan sebagai rezeki untukmu; karena itu janganlah kamu mengadakan sekutu-sekutu bagi Allah, padahal kamu mengetahui."/>
+		<aya index="23" text="Dan jika kamu (tetap) dalam keraguan tentang Al Quran yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surat (saja) yang semisal Al Quran itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar."/>
+		<aya index="24" text="Maka jika kamu tidak dapat membuat(nya) -- dan pasti kamu tidak akan dapat membuat(nya), peliharalah dirimu dari neraka yang bahan bakarnya manusia dan batu, yang disediakan bagi orang-orang kafir."/>
+		<aya index="25" text="Dan sampaikanlah berita gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir sungai-sungai di dalamnya. Setiap mereka diberi rezeki buah-buahan dalam surga-surga itu, mereka mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi buah-buahan yang serupa dan untuk mereka di dalamnya ada isteri-isteri yang suci dan mereka kekal di dalamnya."/>
+		<aya index="26" text="Sesungguhnya Allah tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun orang-orang yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan mereka, tetapi mereka yang kafir mengatakan: &quot;Apakah maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu (pula) banyak orang yang diberi-Nya petunjuk. Dan tidak ada yang disesatkan Allah kecuali orang-orang yang fasik,"/>
+		<aya index="27" text="(yaitu) orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu teguh, dan memutuskan apa yang diperintahkan Allah (kepada mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. Mereka itulah orang-orang yang rugi."/>
+		<aya index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya mati, lalu Allah menghidupkan kamu, kemudian kamu dimatikan dan dihidupkan-Nya kembali, kemudian kepada-Nya-lah kamu dikembalikan?"/>
+		<aya index="29" text="Dialah Allah, yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) langit, lalu dijadikan-Nya tujuh langit. Dan Dia Maha Mengetahui segala sesuatu."/>
+		<aya index="30" text="Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: &quot;Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka berkata: &quot;Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan mensucikan Engkau?&quot; Tuhan berfirman: &quot;Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui&quot;."/>
+		<aya index="31" text="Dan Dia mengajarkan kepada Adam nama-nama (benda-benda) seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu berfirman: &quot;Sebutkanlah kepada-Ku nama benda-benda itu jika kamu mamang benar orang-orang yang benar!&quot;"/>
+		<aya index="32" text="Mereka menjawab: &quot;Maha Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada kami; sesungguhnya Engkaulah Yang Maha Mengetahui lagi Maha Bijaksana&quot;."/>
+		<aya index="33" text="Allah berfirman: &quot;Hai Adam, beritahukanlah kepada mereka nama-nama benda ini&quot;. Maka setelah diberitahukannya kepada mereka nama-nama benda itu, Allah berfirman: &quot;Bukankah sudah Ku-katakan kepadamu, bahwa sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/>
+		<aya index="34" text="Dan (ingatlah) ketika Kami berfirman kepada para malaikat: &quot;Sujudlah kamu kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan orang-orang yang kafir."/>
+		<aya index="35" text="Dan Kami berfirman: &quot;Hai Adam, diamilah oleh kamu dan isterimu surga ini, dan makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu sukai, dan janganlah kamu dekati pohon ini, yang menyebabkan kamu termasuk orang-orang yang zalim."/>
+		<aya index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami berfirman: &quot;Turunlah kamu! sebagian kamu menjadi musuh bagi yang lain, dan bagi kamu ada tempat kediaman di bumi, dan kesenangan hidup sampai waktu yang ditentukan&quot;."/>
+		<aya index="37" text="Kemudian Adam menerima beberapa kalimat dari Tuhannya, maka Allah menerima taubatnya. Sesungguhnya Allah Maha Penerima taubat lagi Maha Penyayang."/>
+		<aya index="38" text="Kami berfirman: &quot;Turunlah kamu semuanya dari surga itu! Kemudian jika datang petunjuk-Ku kepadamu, maka barang siapa yang mengikuti petunjuk-Ku, niscaya tidak ada kekhawatiran atas mereka, dan tidak (pula) mereka bersedih hati&quot;."/>
+		<aya index="39" text="Adapun orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itu penghuni neraka; mereka kekal di dalamnya."/>
+		<aya index="40" text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu, dan penuhilah janjimu kepada-Ku, niscaya Aku penuhi janji-Ku kepadamu; dan hanya kepada-Ku-lah kamu harus takut (tunduk)."/>
+		<aya index="41" text="Dan berimanlah kamu kepada apa yang telah Aku turunkan (Al Quran) yang membenarkan apa yang ada padamu (Taurat), dan janganlah kamu menjadi orang yang pertama kafir kepadanya, dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang rendah, dan hanya kepada Akulah kamu harus bertakwa."/>
+		<aya index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak itu, sedang kamu mengetahui."/>
+		<aya index="43" text="Dan dirikanlah shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku'."/>
+		<aya index="44" text="Mengapa kamu suruh orang lain (mengerjakan) kebaktian, sedang kamu melupakan diri (kewajiban)mu sendiri, padahal kamu membaca Al Kitab (Taurat)? Maka tidaklah kamu berpikir?"/>
+		<aya index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. Dan sesungguhnya yang demikian itu sungguh berat, kecuali bagi orang-orang yang khusyu',"/>
+		<aya index="46" text="(yaitu) orang-orang yang meyakini, bahwa mereka akan menemui Tuhannya, dan bahwa mereka akan kembali kepada-Nya."/>
+		<aya index="47" text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu dan (ingatlah pula) bahwasanya Aku telah melebihkan kamu atas segala umat."/>
+		<aya index="48" text="Dan jagalah dirimu dari (azab) hari (kiamat, yang pada hari itu) seseorang tidak dapat membela orang lain, walau sedikitpun; dan (begitu pula) tidak diterima syafa'at dan tebusan dari padanya, dan tidaklah mereka akan ditolong."/>
+		<aya index="49" text="Dan (ingatlah) ketika Kami selamatkan kamu dari (Fir'aun) dan pengikut-pengikutnya; mereka menimpakan kepadamu siksaan yang seberat-beratnya, mereka menyembelih anak-anakmu yang laki-laki dan membiarkan hidup anak-anakmu yang perempuan. Dan pada yang demikian itu terdapat cobaan-cobaan yang besar dari Tuhanmu."/>
+
+=======================================================================
+==opennlp/docs/apidocs/opennlp-uima/script.js
+=======================================================================
+function show(type)
+{
+    count = 0;
+    for (var key in methods) {
+        var row = document.getElementById(key);
+        if ((methods[key] &  type) != 0) {
+            row.style.display = '';
+            row.className = (count++ % 2) ? rowColor : altColor;
+        }
+        else
+            row.style.display = 'none';
+    }
+    updateTabs(type);
+}
+
+function updateTabs(type)
+{
+    for (var value in tabs) {
+        var sNode = document.getElementById(tabs[value][0]);
+        var spanNode = sNode.firstChild;
+        if (value == type) {
+            sNode.className = activeTableTab;
+            spanNode.innerHTML = tabs[value][1];
+        }
+        else {
+            sNode.className = tableTab;
+            spanNode.innerHTML = "<a href=\"javascript:show("+ value + ");\">" + tabs[value][1] + "</a>";
+        }
+    }
+}
+
+=======================================================================
+==opennlp/docs/apidocs/opennlp-uima/package-list
+=======================================================================
+opennlp.uima.chunker
+opennlp.uima.doccat
+opennlp.uima.namefind
+opennlp.uima.normalizer
+opennlp.uima.parser
+opennlp.uima.postag
+opennlp.uima.sentdetect
+opennlp.uima.tokenize
+opennlp.uima.util
+
+=======================================================================
+==opennlp/docs/apidocs/opennlp-tools/script.js
+=======================================================================
+function show(type)
+{
+    count = 0;
+    for (var key in methods) {
+        var row = document.getElementById(key);
+        if ((methods[key] &  type) != 0) {
+            row.style.display = '';
+            row.className = (count++ % 2) ? rowColor : altColor;
+        }
+        else
+            row.style.display = 'none';
+    }
+    updateTabs(type);
+}
+
+function updateTabs(type)
+{
+    for (var value in tabs) {
+        var sNode = document.getElementById(tabs[value][0]);
+        var spanNode = sNode.firstChild;
+        if (value == type) {
+            sNode.className = activeTableTab;
+            spanNode.innerHTML = tabs[value][1];
+        }
+        else {
+            sNode.className = tableTab;
+            spanNode.innerHTML = "<a href=\"javascript:show("+ value + ");\">" + tabs[value][1] + "</a>";
+        }
+    }
+}
+
+=======================================================================
+==opennlp/docs/apidocs/opennlp-tools/package-list
+=======================================================================
+opennlp.tools
+opennlp.tools.chunker
+opennlp.tools.dictionary
+opennlp.tools.dictionary.serializer
+opennlp.tools.doccat
+opennlp.tools.entitylinker
+opennlp.tools.formats
+opennlp.tools.formats.ad
+opennlp.tools.formats.brat
+opennlp.tools.formats.convert
+opennlp.tools.formats.frenchtreebank
+opennlp.tools.formats.muc
+opennlp.tools.formats.ontonotes
+opennlp.tools.lemmatizer
+opennlp.tools.ml
+opennlp.tools.ml.maxent
+opennlp.tools.ml.maxent.io
+opennlp.tools.ml.maxent.quasinewton
+opennlp.tools.ml.model
+opennlp.tools.ml.perceptron
+opennlp.tools.namefind
+opennlp.tools.ngram
+opennlp.tools.parser
+opennlp.tools.parser.chunking
+opennlp.tools.parser.lang.en
+opennlp.tools.parser.lang.es
+opennlp.tools.parser.treeinsert
+opennlp.tools.postag
+opennlp.tools.sentdetect
+opennlp.tools.sentdetect.lang
+opennlp.tools.sentdetect.lang.th
+opennlp.tools.stemmer
+opennlp.tools.stemmer.snowball
+opennlp.tools.tokenize
+opennlp.tools.tokenize.lang
+opennlp.tools.tokenize.lang.en
+opennlp.tools.util
+opennlp.tools.util.eval
+opennlp.tools.util.ext
+opennlp.tools.util.featuregen
+opennlp.tools.util.model
