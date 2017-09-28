@@ -2,11 +2,11 @@
 *****************************************************
 Summary
 -------
-Generated at: 2017-09-25T12:26:18+07:00
+Generated at: 2017-09-25T16:51:26+07:00
 Notes: 3
 Binaries: 6
 Archives: 2
-Standards: 730
+Standards: 732
 
 Apache Licensed: 39
 Generated Documents: 0
@@ -14,7 +14,7 @@ Generated Documents: 0
 JavaDocs are generated and so license header is optional
 Generated files do not required license headers
 
-36 Unknown Licenses
+38 Unknown Licenses
 
 *******************************
 
@@ -29,6 +29,7 @@ Unapproved licenses:
   src/main/resources/models/thing/blentities.txt
   src/main/resources/models/thing/sentences.txt
   src/main/resources/models/thing/annotatedSentences.txt
+  src/main/resources/models/person/_backup.txt
   src/main/resources/models/person/knownentities.txt
   src/main/resources/models/person/blentities.txt
   src/main/resources/models/person/sentences.txt
@@ -46,6 +47,7 @@ Unapproved licenses:
   models/thing/blentities.txt
   models/thing/sentences.txt
   models/thing/annotatedSentences.txt
+  models/person/_backup.txt
   models/person/knownentities.txt
   models/person/blentities.txt
   models/person/sentences.txt
@@ -81,6 +83,7 @@ Archives:
  !????? src/main/resources/models/thing/sentences.txt
   B     src/main/resources/models/thing/itq-person-model.bin
  !????? src/main/resources/models/thing/annotatedSentences.txt
+ !????? src/main/resources/models/person/_backup.txt
  !????? src/main/resources/models/person/knownentities.txt
  !????? src/main/resources/models/person/blentities.txt
  !????? src/main/resources/models/person/sentences.txt
@@ -114,6 +117,7 @@ Archives:
  !????? models/thing/sentences.txt
   B     models/thing/itq-person-model.bin
  !????? models/thing/annotatedSentences.txt
+ !????? models/person/_backup.txt
  !????? models/person/knownentities.txt
  !????? models/person/blentities.txt
  !????? models/person/sentences.txt
@@ -1145,7 +1149,7 @@ ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
 <START:person>ismail<END>
 
 =======================================================================
-==src/main/resources/models/person/knownentities.txt
+==src/main/resources/models/person/_backup.txt
 =======================================================================
 sesungguhnya <START:person> musa <END> telah datang kepadamu
 bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
@@ -1168,43 +1172,7 @@ demikian pula <START:person> ya'qub <END>
 telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
 peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
 ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
-adam
-idris
-nuh
-hud
-shaleh
-ibrahim
-luth
-ismail
-ishaq
-ya’qub
-yusuf
-ayyub
-syu’aib
-musa
-harun
-dzulkifli
-daud
-sulaiman
-ilyas
-ilyasa’
-yunus
-zakaria
-yahya
-isa
-muhammad
-ahmad
-maryam
-fir'aun
-haman
 
-=======================================================================
-==src/main/resources/models/person/blentities.txt
-=======================================================================
-
-=======================================================================
-==src/main/resources/models/person/sentences.txt
-=======================================================================
 sesungguhnya musa telah datang kepadamu
 bani israil meminta kepada musa pada jaman dahulu
 sesungguhnya kami telah mengutusmu (muhammad)
@@ -1226,6 +1194,10 @@ demikian pula ya'qub
 telah kami perintahkan kepada ibrahim dan ismail
 peninggalan keluarga musa dan keluarga harun
 ketika kami selamatkan kamu dari (fir'aun)
+
+=======================================================================
+==src/main/resources/models/person/knownentities.txt
+=======================================================================
 adam
 idris
 nuh
@@ -1255,114 +1227,193 @@ ahmad
 maryam
 fir'aun
 haman
+jalut
+qarun
+samiri
+dzulkarnain
+imran
+al-aziz
+talut
+azar
+uzair
+luqman
+abu lahab
+zaid
+abdullah bin umi maktum
+habil
+qabil
+hawa
+abu bakar
+aisyah
+abu jahal
+abu lahab
+umu jamil
+
+=======================================================================
+==src/main/resources/models/person/blentities.txt
+=======================================================================
+
+=======================================================================
+==src/main/resources/models/person/sentences.txt
+=======================================================================
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+ishaq
+ya’qub
+yusuf
+ayyub
+syu’aib
+musa
+harun
+dzulkifli
+daud
+sulaiman
+ilyas
+ilyasa’
+yunus
+zakaria
+yahya
+isa
+muhammad
+ahmad
+maryam
+fir'aun
+haman
+jalut
+qarun
+samiri
+dzulkarnain
+imran
+al-aziz
+talut
+azar
+uzair
+luqman
+abu lahab
+zaid
+abdullah bin umi maktum
+habil
+qabil
+hawa
+abu bakar
+aisyah
+abu jahal
+abu lahab
+umu jamil
 
 =======================================================================
 ==src/main/resources/models/person/annotatedSentences.txt
 =======================================================================
-bani israil meminta kepada  <START:person> musa <END>  pada jaman dahulu
-padahal  <START:person> sulaiman <END>  tidak kafir (tidak mengerjakan sihir)
-ketika  <START:person> ibrahim <END>  diuji tuhannya dengan beberapa kalimat
+<START:person> hanah <END>
+<START:person> aus bin as-samit <END>
+<START:person> namrud <END>
+<START:person> saudara perempuan musa <END>
+<START:person> khidr <END>
+<START:person> luqman <END>
 <START:person> ahmad <END>
 <START:person> zakaria <END>
+<START:person> ibrahim <END>
 <START:person> dzulkifli <END>
-<START:person> hai <END>  adam, diamilah oleh kamu dan isterimu surga ini
+<START:person> ilyasa’ <END>
+<START:person> azar <END>
+<START:person> harun <END>
 <START:person> istri nuh <END>
 <START:person> hawa <END>
-jadikanlah sebahagian maqam  <START:person> ibrahim <END>  tempat shalat
-apa yang diberikan kepada  <START:person> musa <END>  dan isa
-apa yang dibaca oleh syaitan-syaitan pada masa kerajaan  <START:person> sulaiman <END>
-kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera  <START:person> maryam <END>
+<START:person> umu jamil <END>
+<START:person> muhammad <END>
 <START:person> shaleh <END>
 <START:person> zainab <END>
+<START:person> ishaq <END>
+istri  <START:person> ayyub <END>
 <START:person> ya’qub <END>
 <START:person> abu jahal <END>
 <START:person> abdullah bin umi maktum <END>
 istri  <START:person> imran <END>
+<START:person> anak nuh <END>
 istri  <START:person> zakaria <END>
+<START:person> istri luth <END>
 <START:person> khaulah binti tsa'labah <END>
 <START:person> dzulkarnain <END>
-<START:person> istri luth <END>
-apa yang diberikan kepada musa dan  <START:person> isa <END>
 <START:person> yunus <END>
+<START:person> qarun <END>
+<START:person> haman <END>
+anak  <START:person> nuh <END>
 <START:person> musa <END>
+al  <START:person> aziz <END>
 al- <START:person> aziz <END>
 <START:person> abdullah bin ubay <END>
-<START:person> demikian pula ya'qub <END>
-telah kami perintahkan kepada  <START:person> ibrahim <END>  dan ismail
 <START:person> idris <END>
+<START:person> walid bin mughirah <END>
+istri  <START:person> musa <END>
 istri  <START:person> nuh <END>
-sesungguhnya musa telah datang kep <START:person> adam <END> u
+<START:person> istri imran <END>
+istri  <START:person> fir'aun <END>
 <START:person> istri ayyub <END>
+<START:person> aisyah <END>
 <START:person> ilyas <END> a’
 <START:person> yahya <END>
-<START:person> fir'aun <END>
-tidak ada yang benci kepada agama  <START:person> ibrahim <END>
-peninggalan keluarga musa dan keluarga  <START:person> harun <END>
-<START:person> zaid <END>
-al-aas  <START:person> ibn wael <END>
-mengenal  <START:person> muhammad <END>  seperti mereka mengenal anak-anaknya sendiri
-<START:person> ilyas <END>
-<START:person> ratu balqis <END>
-kami wahyukan kepada hamba kami ( <START:person> muhammad <END> )
-<START:person> isa <END>
-<START:person> imran <END>
-<START:person> yusuf <END>
-anak  <START:person> luqman <END>
-kami berikan bukti-bukti kebenaran (mukjizat) kepada  <START:person> isa <END>  putera maryam
+<START:person> anak luqman <END>
+ibu  <START:person> musa <END>
 
 =======================================================================
 ==src/main/resources/docs/output.xml
 =======================================================================
-<START:person> <sura <END> <START:person> index="2" <END> name="البقرة">
-<START:person> <aya <END> index="1" text="Alif <START:person> laam <END> miim."/>
-<START:person> <aya <END> <START:person> index="2" <END> text="Kitab (Al Quran) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,"/>
-<START:person> <aya <END> index="3" text="(yaitu) mereka yang beriman kepada yang ghaib, yang mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/>
-<START:person> <aya <END> index="4" text="dan mereka yang beriman kepada <START:person> Kitab <END> (Al Quran) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat."/>
-<START:person> <aya <END> index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung."/>
-<START:person> <aya <END> <START:person> index="6" <END> text="Sesungguhnya orang-orang kafir, sama saja bagi mereka, kamu beri peringatan atau tidak kamu beri peringatan, mereka tidak juga akan beriman."/>
-<START:person> <aya <END> index="7" text="Allah telah mengunci-mati hati dan pendengaran mereka, dan penglihatan mereka ditutup. Dan bagi mereka siksa yang amat berat."/>
-<START:person> <aya <END> index="8" text="Di antara manusia ada yang mengatakan: &quot;Kami beriman kepada Allah dan Hari kemudian,&quot; pada hal mereka itu sesungguhnya bukan orang-orang yang beriman."/>
-<START:person> <aya <END> index="9" text="Mereka <START:person> hendak <END> menipu Allah dan orang-orang yang beriman, padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/>
-<START:person> <aya <END> index="10" text="Dalam hati mereka ada penyakit, lalu ditambah Allah penyakitnya; dan bagi mereka siksa yang pedih, disebabkan mereka berdusta."/>
-<START:person> <aya <END> index="11" text="Dan bila dikatakan kepada mereka: &quot;Janganlah kamu membuat kerusakan di muka bumi&quot;. Mereka menjawab: &quot;Sesungguhnya kami orang-orang yang mengadakan perbaikan&quot;."/>
-<START:person> <aya <END> index="12" text="Ingatlah, sesungguhnya mereka itulah orang-orang yang membuat kerusakan, tetapi mereka tidak sadar."/>
-<START:person> <aya <END> index="13" text="Apabila dikatakan kepada mereka: &quot;Berimanlah kamu sebagaimana orang-orang lain telah beriman&quot;. Mereka menjawab: &quot;Akan berimankah kami sebagaimana orang-orang yang bodoh itu telah beriman?&quot; Ingatlah, sesungguhnya merekalah orang-orang yang bodoh; tetapi mereka tidak tahu."/>
-<START:person> <aya <END> index="14" text="Dan bila mereka berjumpa dengan orang-orang yang beriman, mereka mengatakan: &quot;Kami telah beriman&quot;. Dan bila mereka kembali kepada syaitan-syaitan mereka, mereka mengatakan: &quot;Sesungguhnya kami sependirian dengan kamu, kami hanyalah berolok-olok&quot;."/>
-<START:person> <aya <END> index="15" text="Allah <START:person> akan <END> (membalas) olok-olokan mereka dan membiarkan mereka terombang-ambing dalam kesesatan mereka."/>
-<START:person> <aya <END> index="16" text="Mereka itulah orang yang membeli kesesatan dengan petunjuk, maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/>
-<START:person> <aya <END> index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan api, maka setelah api itu menerangi sekelilingnya Allah hilangkan <START:person> cahaya <END> (yang menyinari) mereka, dan membiarkan mereka dalam kegelapan, tidak dapat melihat."/>
-<START:person> <aya <END> <START:person> index="18" <END> text="Mereka tuli, bisu dan buta, maka tidaklah mereka akan kembali (ke jalan yang benar),"/>
-<START:person> <aya <END> index="19" text="atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, <START:person> karena <END> (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir."/>
-<START:person> <aya <END> index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari mereka, mereka berjalan di bawah sinar itu, dan bila gelap menimpa mereka, <START:person> mereka <END> berhenti. Jikalau Allah menghendaki, <START:person> niscaya <END> Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya Allah berkuasa atas segala sesuatu."/>
-<START:person> <aya <END> <START:person> index="21" <END> text="Hai manusia, sembahlah Tuhanmu yang telah menciptakanmu dan orang-orang yang sebelummu, agar kamu bertakwa,"/>
-<START:person> <aya <END> index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai atap, dan Dia menurunkan air (hujan) dari langit, lalu Dia menghasilkan dengan hujan itu segala buah-buahan sebagai rezeki untukmu; karena itu janganlah kamu mengadakan sekutu-sekutu bagi Allah, padahal <START:person> kamu <END> mengetahui."/>
-<START:person> <aya <END> index="23" text="Dan jika kamu (tetap) dalam keraguan tentang Al Quran yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surat (saja) yang semisal Al Quran itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar."/>
-<START:person> <aya <END> index="24" text="Maka jika kamu tidak dapat membuat(nya) -- dan pasti kamu tidak akan dapat membuat(nya), peliharalah dirimu dari neraka yang bahan bakarnya manusia dan batu, yang disediakan bagi orang-orang kafir."/>
-<START:person> <aya <END> index="25" text="Dan sampaikanlah berita gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir sungai-sungai <START:person> di <END> dalamnya. Setiap mereka diberi rezeki buah-buahan dalam surga-surga itu, <START:person> mereka <END> mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi buah-buahan yang serupa dan untuk mereka di dalamnya ada isteri-isteri yang suci dan mereka kekal di dalamnya."/>
-<START:person> <aya <END> <START:person> index="26" <END> text="Sesungguhnya Allah tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun orang-orang yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan mereka, tetapi mereka yang kafir mengatakan: &quot;Apakah maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu (pula) banyak orang yang diberi-Nya petunjuk. Dan tidak ada yang disesatkan Allah kecuali orang-orang yang fasik,"/>
-<START:person> <aya <END> <START:person> index="27" <END> text="(yaitu) orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu teguh, dan memutuskan apa yang diperintahkan Allah (kepada mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. Mereka itulah orang-orang yang rugi."/>
-<START:person> <aya <END> index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya mati, lalu Allah menghidupkan kamu, kemudian kamu dimatikan dan dihidupkan-Nya kembali, kemudian kepada-Nya-lah <START:person> kamu <END> dikembalikan?"/>
-<START:person> <aya <END> <START:person> index="29" <END> text="Dialah Allah, yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) langit, lalu dijadikan-Nya <START:person> tujuh <END> langit. Dan <START:person> Dia <END> Maha Mengetahui <START:person> segala <END> sesuatu."/>
-<START:person> <aya <END> index="30" text="Ingatlah <START:person> ketika <END> Tuhanmu berfirman kepada para Malaikat: &quot;Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka <START:person> berkata: <END> &quot;Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan <START:person> mensucikan <END> Engkau?&quot; Tuhan <START:person> berfirman: <END> &quot;Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui&quot;."/>
-<START:person> <aya <END> <START:person> index="31" <END> text="Dan Dia mengajarkan kepada <START:person> Adam <END> nama-nama (benda-benda) seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu berfirman: &quot;Sebutkanlah kepada-Ku nama benda-benda itu jika kamu mamang benar orang-orang yang benar!&quot;"/>
-<START:person> <aya <END> <START:person> index="32" <END> text="Mereka <START:person> menjawab: <END> &quot;Maha Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada kami; sesungguhnya Engkaulah <START:person> Yang <END> Maha Mengetahui <START:person> lagi <END> Maha Bijaksana&quot;."/>
-<START:person> <aya <END> <START:person> index="33" <END> text="Allah berfirman: &quot;Hai Adam, beritahukanlah kepada mereka nama-nama <START:person> benda <END> ini&quot;. Maka setelah diberitahukannya kepada mereka nama-nama <START:person> benda <END> itu, Allah berfirman: &quot;Bukankah <START:person> sudah <END> Ku-katakan kepadamu, bahwa sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/>
-<START:person> <aya <END> <START:person> index="34" <END> text="Dan (ingatlah) ketika Kami berfirman kepada para malaikat: &quot;Sujudlah kamu kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan orang-orang yang kafir."/>
-<START:person> <aya <END> <START:person> index="35" <END> text="Dan Kami <START:person> berfirman: <END> &quot;Hai Adam, diamilah oleh kamu dan isterimu surga ini, dan makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu sukai, dan janganlah kamu dekati pohon ini, yang menyebabkan kamu termasuk orang-orang yang zalim."/>
-<START:person> <aya <END> index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami berfirman: &quot;Turunlah kamu! sebagian kamu menjadi musuh bagi yang lain, dan bagi kamu ada tempat kediaman di bumi, dan kesenangan hidup sampai waktu yang ditentukan&quot;."/>
-<START:person> <aya <END> <START:person> index="37" <END> text="Kemudian Adam menerima beberapa kalimat dari Tuhannya, maka Allah <START:person> menerima <END> taubatnya. Sesungguhnya Allah Maha Penerima <START:person> taubat lagi <END> Maha Penyayang."/>
-<START:person> <aya <END> <START:person> index="38" <END> text="Kami berfirman: &quot;Turunlah kamu semuanya dari surga itu! Kemudian jika datang petunjuk-Ku kepadamu, maka barang siapa yang mengikuti petunjuk-Ku, niscaya tidak ada kekhawatiran atas mereka, dan tidak (pula) mereka bersedih hati&quot;."/>
-<START:person> <aya <END> <START:person> index="39" <END> text="Adapun orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itu penghuni neraka; mereka kekal di dalamnya."/>
-<START:person> <aya <END> <START:person> index="40" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu, dan penuhilah janjimu kepada-Ku, niscaya Aku <START:person> penuhi <END> janji-Ku kepadamu; dan hanya kepada-Ku-lah kamu harus takut (tunduk)."/>
-<START:person> <aya <END> index="41" text="Dan berimanlah kamu kepada apa yang telah Aku turunkan (Al Quran) yang membenarkan apa yang ada padamu (Taurat), dan janganlah kamu menjadi orang yang pertama kafir kepadanya, dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang rendah, dan hanya kepada Akulah kamu <START:person> harus <END> bertakwa."/>
-<START:person> <aya <END> index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak itu, sedang kamu mengetahui."/>
-<START:person> <aya <END> index="43" text="Dan <START:person> dirikanlah <END> shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku'."/>
-<START:person> <aya <END> index="44" text="Mengapa kamu suruh orang lain (mengerjakan) kebaktian, sedang kamu melupakan diri (kewajiban)mu sendiri, padahal kamu membaca Al <START:person> Kitab <END> (Taurat)? Maka tidaklah <START:person> kamu <END> berpikir?"/>
-<START:person> <aya <END> index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. Dan sesungguhnya yang demikian itu sungguh berat, kecuali bagi orang-orang yang khusyu',"/>
-<START:person> <aya <END> <START:person> index="46" <END> text="(yaitu) orang-orang yang meyakini, bahwa mereka akan menemui Tuhannya, dan bahwa mereka akan kembali kepada-Nya."/>
-<START:person> <aya <END> <START:person> index="47" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu dan (ingatlah pula) bahwasanya Aku telah melebihkan kamu atas segala umat."/>
-<START:person> <aya <END> index="48" text="Dan jagalah dirimu dari (azab) hari (kiamat, yang pada hari itu) seseorang tidak dapat membela orang lain, walau sedikitpun; dan (begitu pula) tidak diterima syafa'at dan tebusan dari padanya, dan tidaklah mereka akan ditolong."/>
-<START:person> <aya <END> <START:person> index="49" <END> text="Dan (ingatlah) ketika Kami selamatkan kamu dari (Fir'aun) dan pengikut-pengikutnya; mereka menimpakan kepadamu siksaan yang seberat-beratnya, mereka menyembelih anak-anakmu yang laki-laki dan membiarkan hidup anak-anakmu yang perempuan. Dan pada yang demikian itu terdapat cobaan-cobaan yang besar dari Tuhanmu."/>
+<START:person> <sura <END> <START:person> index="2" name="البقرة"> <END>
+<START:person> <aya <END> <START:person> index="1" text="Alif laam miim."/> <END>
+<START:person> <aya <END> index="2" <START:person> text="Kitab <END> <START:person> (Al Quran) ini tidak ada keraguan <END> padanya; <START:person> petunjuk bagi mereka yang bertakwa,"/> <END>
+<START:person> <aya <END> <START:person> index="3" text="(yaitu) mereka yang beriman kepada yang <END> ghaib, yang <START:person> mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/> <END>
+<START:person> <aya <END> <START:person> index="4" text="dan mereka yang beriman kepada Kitab <END> (Al Quran) <START:person> yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan <END> sebelummu, <START:person> serta mereka yakin akan adanya (kehidupan) akhirat."/> <END>
+<START:person> <aya <END> <START:person> index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan <END> mereka, dan <START:person> merekalah orang-orang yang beruntung."/> <END>
+<START:person> <aya <END> <START:person> index="6" text="Sesungguhnya <END> orang-orang <START:person> kafir, sama saja bagi <END> mereka, <START:person> kamu beri peringatan atau tidak kamu beri <END> peringatan, mereka <START:person> tidak juga akan beriman."/> <END>
+<START:person> <aya <END> <START:person> index="7" text="Allah telah <END> mengunci-mati <START:person> hati dan pendengaran <END> mereka, <START:person> dan penglihatan mereka ditutup. Dan <END> bagi <START:person> mereka siksa yang amat berat."/> <END>
+<START:person> <aya <END> <START:person> index="8" text="Di antara manusia ada yang mengatakan: <END> &quot;Kami beriman <START:person> kepada Allah dan Hari <END> kemudian,&quot; <START:person> pada hal mereka itu sesungguhnya bukan <END> orang-orang yang beriman."/>
+<START:person> <aya <END> <START:person> index="9" <END> text="Mereka <START:person> hendak menipu Allah dan <END> orang-orang <START:person> yang <END> beriman, <START:person> padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/> <END>
+<START:person> <aya <END> <START:person> index="10" text="Dalam hati mereka ada <END> penyakit, <START:person> lalu ditambah Allah <END> penyakitnya; <START:person> dan bagi mereka siksa yang <END> pedih, <START:person> disebabkan mereka berdusta."/> <END>
+<START:person> <aya <END> <START:person> index="11" text="Dan bila dikatakan kepada mereka: <END> &quot;Janganlah <START:person> kamu membuat kerusakan di muka bumi&quot;. Mereka <END> menjawab: &quot;Sesungguhnya <START:person> kami <END> orang-orang yang <START:person> mengadakan perbaikan&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="12" text="Ingatlah, sesungguhnya mereka itulah <END> orang-orang <START:person> yang membuat kerusakan, tetapi mereka tidak <END> sadar."/>
+<START:person> <aya <END> <START:person> index="13" text="Apabila dikatakan kepada <END> mereka: <START:person> &quot;Berimanlah kamu sebagaimana <END> orang-orang <START:person> lain telah beriman&quot;. <END> Mereka <START:person> menjawab: <END> <START:person> &quot;Akan berimankah kami sebagaimana <END> orang-orang yang <START:person> bodoh itu telah beriman?&quot; Ingatlah, <END> sesungguhnya <START:person> merekalah orang-orang yang <END> bodoh; <START:person> tetapi mereka tidak tahu."/> <END>
+<START:person> <aya <END> <START:person> index="14" <END> text="Dan <START:person> bila mereka berjumpa dengan <END> orang-orang yang beriman, mereka mengatakan: <START:person> &quot;Kami telah beriman&quot;. <END> Dan <START:person> bila mereka kembali kepada syaitan-syaitan <END> mereka, mereka mengatakan: <START:person> &quot;Sesungguhnya kami sependirian dengan <END> kamu, kami <START:person> hanyalah berolok-olok&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="15" <END> text="Allah akan (membalas) <START:person> olok-olokan mereka dan membiarkan mereka <END> terombang-ambing <START:person> dalam kesesatan mereka."/> <END>
+<START:person> <aya <END> <START:person> index="16" text="Mereka itulah orang yang membeli kesesatan dengan <END> petunjuk, <START:person> maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/> <END>
+<START:person> <aya <END> <START:person> index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan <END> api, maka <START:person> setelah api itu menerangi sekelilingnya Allah hilangkan cahaya (yang menyinari) <END> mereka, <START:person> dan membiarkan mereka dalam <END> kegelapan, tidak <START:person> dapat melihat."/> <END>
+<START:person> <aya index="18" <END> text="Mereka <START:person> tuli, bisu dan <END> buta, <START:person> maka tidaklah mereka akan kembali <END> (ke <START:person> jalan yang benar),"/> <END>
+<START:person> <aya <END> <START:person> index="19" text="atau seperti <END> (orang-orang yang ditimpa) <START:person> hujan lebat dari langit disertai gelap <END> gulita, <START:person> guruh dan kilat; <END> mereka <START:person> menyumbat telinganya dengan anak <END> jarinya, <START:person> karena (mendengar suara) <END> petir, <START:person> sebab takut akan mati. Dan <END> Allah <START:person> meliputi <END> orang-orang yang <START:person> kafir."/> <END>
+<START:person> <aya <END> <START:person> index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari <END> mereka, <START:person> mereka berjalan di bawah sinar <END> itu, dan <START:person> bila gelap menimpa <END> mereka, <START:person> mereka berhenti. Jikalau Allah <END> menghendaki, <START:person> niscaya Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya <END> <START:person> Allah berkuasa atas segala sesuatu."/> <END>
+<START:person> <aya <END> <START:person> index="21" text="Hai <END> manusia, <START:person> sembahlah Tuhanmu yang telah menciptakanmu dan <END> orang-orang <START:person> yang <END> sebelummu, <START:person> agar kamu bertakwa,"/> <END>
+<START:person> <aya <END> <START:person> index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai <END> atap, <START:person> dan Dia menurunkan air <END> (hujan) dari langit, <START:person> lalu Dia menghasilkan dengan hujan itu segala <END> buah-buahan <START:person> sebagai rezeki untukmu; karena itu janganlah kamu mengadakan <END> sekutu-sekutu <START:person> bagi Allah, padahal kamu mengetahui."/> <END>
+<START:person> <aya <END> <START:person> index="23" text="Dan jika kamu <END> (tetap) dalam <START:person> keraguan tentang Al Quran <END> <START:person> yang Kami wahyukan kepada hamba Kami <END> (Muhammad), <START:person> buatlah satu surat <END> (saja) yang <START:person> semisal Al Quran <END> itu <START:person> dan ajaklah penolong-penolongmu selain <END> Allah, <START:person> jika kamu orang-orang yang benar."/> <END>
+<START:person> <aya <END> <START:person> index="24" text="Maka jika kamu tidak dapat membuat(nya) <END> -- <START:person> dan pasti kamu tidak akan dapat <END> membuat(nya), <START:person> peliharalah dirimu dari neraka yang bahan bakarnya manusia dan <END> batu, yang <START:person> disediakan bagi orang-orang <END> kafir."/>
+<START:person> <aya <END> <START:person> index="25" <END> text="Dan <START:person> sampaikanlah berita gembira kepada mereka yang beriman dan berbuat <END> baik, <START:person> bahwa bagi mereka disediakan <END> surga-surga <START:person> yang mengalir sungai-sungai di dalamnya. <END> Setiap <START:person> mereka diberi rezeki <END> buah-buahan <START:person> dalam surga-surga <END> itu, <START:person> mereka mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi <END> buah-buahan <START:person> yang serupa dan untuk mereka di dalamnya ada <END> isteri-isteri <START:person> yang suci dan mereka kekal di dalamnya."/> <END>
+<START:person> <aya <END> <START:person> index="26" text="Sesungguhnya <END> Allah <START:person> tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun <END> orang-orang <START:person> yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan <END> mereka, <START:person> tetapi mereka yang kafir <END> mengatakan: &quot;Apakah <START:person> maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu <END> (pula) <START:person> banyak orang yang diberi-Nya petunjuk. <END> Dan <START:person> tidak ada yang disesatkan Allah kecuali <END> orang-orang <START:person> yang fasik,"/> <END>
+<START:person> <aya index="27" <END> text="(yaitu) <START:person> orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu <END> teguh, dan <START:person> memutuskan apa yang diperintahkan Allah <END> (kepada <START:person> mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. <END> Mereka <START:person> itulah <END> orang-orang <START:person> yang rugi."/> <END>
+<START:person> <aya <END> <START:person> index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya <END> mati, <START:person> lalu Allah menghidupkan <END> kamu, <START:person> kemudian kamu dimatikan dan dihidupkan-Nya <END> kembali, <START:person> kemudian kepada-Nya-lah kamu dikembalikan?"/> <END>
+<START:person> <aya index="29" <END> text="Dialah Allah, <START:person> yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) <END> langit, <START:person> lalu <END> dijadikan-Nya <START:person> tujuh langit. Dan <END> <START:person> Dia <END> <START:person> Maha Mengetahui segala <END> sesuatu."/>
+<START:person> <aya index="30" <END> text="Ingatlah <START:person> ketika Tuhanmu berfirman kepada para Malaikat: <END> &quot;Sesungguhnya <START:person> Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka <END> berkata: <START:person> &quot;Mengapa <END> <START:person> Engkau hendak menjadikan <END> (khalifah) <START:person> di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan <END> darah, padahal <START:person> kami senantiasa bertasbih dengan memuji Engkau <END> dan <START:person> mensucikan Engkau?&quot; Tuhan <END> berfirman: <START:person> &quot;Sesungguhnya <END> <START:person> Aku mengetahui apa yang tidak kamu ketahui&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="31" text="Dan <END> Dia <START:person> mengajarkan kepada Adam <END> nama-nama <START:person> (benda-benda) <END> <START:person> seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu <END> berfirman: <START:person> &quot;Sebutkanlah <END> kepada-Ku <START:person> nama <END> benda-benda itu <START:person> jika kamu mamang benar <END> orang-orang <START:person> yang benar!&quot;"/> <END>
+<START:person> <aya <END> <START:person> index="32" text="Mereka <END> menjawab: <START:person> &quot;Maha <END> <START:person> Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada <END> kami; <START:person> sesungguhnya Engkaulah Yang Maha <END> Mengetahui <START:person> lagi Maha Bijaksana&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="33" text="Allah <END> berfirman: <START:person> &quot;Hai <END> <START:person> Adam, beritahukanlah kepada mereka <END> nama-nama <START:person> benda ini&quot;. Maka <END> setelah <START:person> diberitahukannya kepada mereka <END> nama-nama <START:person> benda itu, Allah <END> berfirman: <START:person> &quot;Bukankah sudah Ku-katakan <END> kepadamu, bahwa <START:person> sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/> <END>
+<START:person> <aya index="34" <END> text="Dan (ingatlah) <START:person> ketika Kami berfirman kepada para malaikat: <END> &quot;Sujudlah kamu <START:person> kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan <END> orang-orang <START:person> yang kafir."/> <END>
+<START:person> <aya <END> <START:person> index="35" text="Dan Kami <END> berfirman: <START:person> &quot;Hai <END> <START:person> Adam, diamilah oleh kamu dan isterimu surga <END> ini, dan <START:person> makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu <END> sukai, dan <START:person> janganlah kamu dekati pohon <END> ini, yang <START:person> menyebabkan kamu termasuk <END> orang-orang <START:person> yang zalim."/> <END>
+<START:person> <aya <END> <START:person> index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami <END> berfirman: <START:person> &quot;Turunlah <END> <START:person> kamu! sebagian kamu menjadi musuh bagi yang <END> lain, <START:person> dan bagi kamu ada tempat kediaman di <END> bumi, <START:person> dan kesenangan hidup sampai waktu yang ditentukan&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="37" text="Kemudian <END> Adam <START:person> menerima beberapa kalimat dari Tuhannya, maka <END> Allah <START:person> menerima taubatnya. Sesungguhnya <END> Allah <START:person> Maha <END> <START:person> Penerima taubat lagi Maha Penyayang."/> <END>
+<START:person> <aya <END> <START:person> index="38" text="Kami berfirman: <END> &quot;Turunlah <START:person> kamu semuanya dari surga itu! Kemudian <END> jika <START:person> datang petunjuk-Ku <END> kepadamu, <START:person> maka barang siapa yang mengikuti <END> petunjuk-Ku, niscaya <START:person> tidak ada kekhawatiran atas <END> mereka, dan <START:person> tidak (pula) mereka bersedih hati&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="39" text="Adapun <END> orang-orang <START:person> yang kafir dan mendustakan ayat-ayat <END> <START:person> Kami, mereka itu penghuni <END> neraka; mereka <START:person> kekal di dalamnya."/> <END>
+<START:person> <aya index="40" <END> text="Hai <START:person> Bani <END> <START:person> Israil, ingatlah akan <END> nikmat-Ku yang <START:person> telah Aku anugerahkan <END> kepadamu, <START:person> dan penuhilah janjimu <END> kepada-Ku, <START:person> niscaya Aku penuhi janji-Ku <END> kepadamu; dan <START:person> hanya kepada-Ku-lah kamu harus takut (tunduk)."/> <END>
+<START:person> <aya <END> <START:person> index="41" <END> text="Dan <START:person> berimanlah kamu kepada apa yang telah Aku turunkan <END> (Al <START:person> Quran) yang membenarkan apa yang ada padamu <END> (Taurat), <START:person> dan janganlah kamu menjadi orang yang pertama kafir <END> kepadanya, <START:person> dan janganlah kamu menukarkan <END> ayat-ayat-Ku dengan <START:person> harga yang rendah, dan hanya kepada Akulah <END> kamu <START:person> harus bertakwa."/> <END>
+<START:person> <aya <END> <START:person> index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak <END> itu, sedang <START:person> kamu mengetahui."/> <END>
+<START:person> <aya <END> <START:person> index="43" <END> text="Dan <START:person> dirikanlah <END> shalat, <START:person> tunaikanlah zakat dan ruku'lah beserta <END> orang-orang <START:person> yang ruku'."/> <END>
+<START:person> <aya <END> <START:person> index="44" <END> text="Mengapa <START:person> kamu suruh orang lain (mengerjakan) <END> kebaktian, <START:person> sedang kamu melupakan diri (kewajiban)mu <END> sendiri, <START:person> padahal kamu membaca Al <END> Kitab <START:person> (Taurat)? <END> <START:person> Maka tidaklah kamu berpikir?"/> <END>
+<START:person> <aya <END> <START:person> index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. <END> Dan <START:person> sesungguhnya yang demikian itu sungguh <END> berat, kecuali <START:person> bagi orang-orang yang khusyu',"/> <END>
+<START:person> <aya <END> <START:person> index="46" text="(yaitu) <END> orang-orang <START:person> yang meyakini, bahwa mereka akan menemui Tuhannya, <END> dan <START:person> bahwa mereka akan kembali kepada-Nya."/> <END>
+<START:person> <aya <END> <START:person> index="47" text="Hai Bani <END> Israil, <START:person> ingatlah akan nikmat-Ku <END> yang <START:person> telah Aku anugerahkan kepadamu dan (ingatlah <END> pula) <START:person> bahwasanya Aku telah melebihkan kamu atas segala umat."/> <END>
+<START:person> <aya <END> <START:person> index="48" text="Dan jagalah dirimu dari <END> (azab) <START:person> hari <END> (kiamat, <START:person> yang pada hari <END> itu) <START:person> seseorang tidak dapat membela orang <END> lain, <START:person> walau <END> sedikitpun; dan (begitu <START:person> pula) tidak diterima <END> syafa'at dan <START:person> tebusan dari padanya, <END> dan <START:person> tidaklah mereka akan ditolong."/> <END>
+<START:person> <aya index="49" <END> text="Dan (ingatlah) <START:person> ketika Kami selamatkan kamu dari (Fir'aun) dan <END> pengikut-pengikutnya; mereka <START:person> menimpakan kepadamu siksaan yang <END> seberat-beratnya, mereka <START:person> menyembelih anak-anakmu yang <END> laki-laki <START:person> dan membiarkan hidup <END> anak-anakmu <START:person> yang perempuan. Dan <END> pada <START:person> yang demikian itu terdapat <END> cobaan-cobaan yang <START:person> besar dari Tuhanmu."/> <END>
 
 =======================================================================
 ==src/main/resources/docs/sura_2.xml
@@ -1802,7 +1853,7 @@ ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
 <START:person>ismail<END>
 
 =======================================================================
-==models/person/knownentities.txt
+==models/person/_backup.txt
 =======================================================================
 sesungguhnya <START:person> musa <END> telah datang kepadamu
 bani israil meminta kepada <START:person> musa <END> pada jaman dahulu
@@ -1825,43 +1876,7 @@ demikian pula <START:person> ya'qub <END>
 telah kami perintahkan kepada <START:person> ibrahim <END> dan <START:person> ismail <END>
 peninggalan keluarga <START:person> musa <END> dan keluarga <START:person> harun <END>
 ketika Kami selamatkan kamu dari (<START:person> fir'aun <END>)
-adam
-idris
-nuh
-hud
-shaleh
-ibrahim
-luth
-ismail
-ishaq
-ya’qub
-yusuf
-ayyub
-syu’aib
-musa
-harun
-dzulkifli
-daud
-sulaiman
-ilyas
-ilyasa’
-yunus
-zakaria
-yahya
-isa
-muhammad
-ahmad
-maryam
-fir'aun
-haman
 
-=======================================================================
-==models/person/blentities.txt
-=======================================================================
-
-=======================================================================
-==models/person/sentences.txt
-=======================================================================
 sesungguhnya musa telah datang kepadamu
 bani israil meminta kepada musa pada jaman dahulu
 sesungguhnya kami telah mengutusmu (muhammad)
@@ -1883,6 +1898,10 @@ demikian pula ya'qub
 telah kami perintahkan kepada ibrahim dan ismail
 peninggalan keluarga musa dan keluarga harun
 ketika kami selamatkan kamu dari (fir'aun)
+
+=======================================================================
+==models/person/knownentities.txt
+=======================================================================
 adam
 idris
 nuh
@@ -1912,114 +1931,193 @@ ahmad
 maryam
 fir'aun
 haman
+jalut
+qarun
+samiri
+dzulkarnain
+imran
+al-aziz
+talut
+azar
+uzair
+luqman
+abu lahab
+zaid
+abdullah bin umi maktum
+habil
+qabil
+hawa
+abu bakar
+aisyah
+abu jahal
+abu lahab
+umu jamil
+
+=======================================================================
+==models/person/blentities.txt
+=======================================================================
+
+=======================================================================
+==models/person/sentences.txt
+=======================================================================
+adam
+idris
+nuh
+hud
+shaleh
+ibrahim
+luth
+ismail
+ishaq
+ya’qub
+yusuf
+ayyub
+syu’aib
+musa
+harun
+dzulkifli
+daud
+sulaiman
+ilyas
+ilyasa’
+yunus
+zakaria
+yahya
+isa
+muhammad
+ahmad
+maryam
+fir'aun
+haman
+jalut
+qarun
+samiri
+dzulkarnain
+imran
+al-aziz
+talut
+azar
+uzair
+luqman
+abu lahab
+zaid
+abdullah bin umi maktum
+habil
+qabil
+hawa
+abu bakar
+aisyah
+abu jahal
+abu lahab
+umu jamil
 
 =======================================================================
 ==models/person/annotatedSentences.txt
 =======================================================================
-bani israil meminta kepada  <START:person> musa <END>  pada jaman dahulu
-padahal  <START:person> sulaiman <END>  tidak kafir (tidak mengerjakan sihir)
-ketika  <START:person> ibrahim <END>  diuji tuhannya dengan beberapa kalimat
+<START:person> hanah <END>
+<START:person> aus bin as-samit <END>
+<START:person> namrud <END>
+<START:person> saudara perempuan musa <END>
+<START:person> khidr <END>
+<START:person> luqman <END>
 <START:person> ahmad <END>
 <START:person> zakaria <END>
+<START:person> ibrahim <END>
 <START:person> dzulkifli <END>
-<START:person> hai <END>  adam, diamilah oleh kamu dan isterimu surga ini
+<START:person> ilyasa’ <END>
+<START:person> azar <END>
+<START:person> harun <END>
 <START:person> istri nuh <END>
 <START:person> hawa <END>
-jadikanlah sebahagian maqam  <START:person> ibrahim <END>  tempat shalat
-apa yang diberikan kepada  <START:person> musa <END>  dan isa
-apa yang dibaca oleh syaitan-syaitan pada masa kerajaan  <START:person> sulaiman <END>
-kami berikan bukti-bukti kebenaran (mukjizat) kepada isa putera  <START:person> maryam <END>
+<START:person> umu jamil <END>
+<START:person> muhammad <END>
 <START:person> shaleh <END>
 <START:person> zainab <END>
+<START:person> ishaq <END>
+istri  <START:person> ayyub <END>
 <START:person> ya’qub <END>
 <START:person> abu jahal <END>
 <START:person> abdullah bin umi maktum <END>
 istri  <START:person> imran <END>
+<START:person> anak nuh <END>
 istri  <START:person> zakaria <END>
+<START:person> istri luth <END>
 <START:person> khaulah binti tsa'labah <END>
 <START:person> dzulkarnain <END>
-<START:person> istri luth <END>
-apa yang diberikan kepada musa dan  <START:person> isa <END>
 <START:person> yunus <END>
+<START:person> qarun <END>
+<START:person> haman <END>
+anak  <START:person> nuh <END>
 <START:person> musa <END>
+al  <START:person> aziz <END>
 al- <START:person> aziz <END>
 <START:person> abdullah bin ubay <END>
-<START:person> demikian pula ya'qub <END>
-telah kami perintahkan kepada  <START:person> ibrahim <END>  dan ismail
 <START:person> idris <END>
+<START:person> walid bin mughirah <END>
+istri  <START:person> musa <END>
 istri  <START:person> nuh <END>
-sesungguhnya musa telah datang kep <START:person> adam <END> u
+<START:person> istri imran <END>
+istri  <START:person> fir'aun <END>
 <START:person> istri ayyub <END>
+<START:person> aisyah <END>
 <START:person> ilyas <END> a’
 <START:person> yahya <END>
-<START:person> fir'aun <END>
-tidak ada yang benci kepada agama  <START:person> ibrahim <END>
-peninggalan keluarga musa dan keluarga  <START:person> harun <END>
-<START:person> zaid <END>
-al-aas  <START:person> ibn wael <END>
-mengenal  <START:person> muhammad <END>  seperti mereka mengenal anak-anaknya sendiri
-<START:person> ilyas <END>
-<START:person> ratu balqis <END>
-kami wahyukan kepada hamba kami ( <START:person> muhammad <END> )
-<START:person> isa <END>
-<START:person> imran <END>
-<START:person> yusuf <END>
-anak  <START:person> luqman <END>
-kami berikan bukti-bukti kebenaran (mukjizat) kepada  <START:person> isa <END>  putera maryam
+<START:person> anak luqman <END>
+ibu  <START:person> musa <END>
 
 =======================================================================
 ==docs/output.xml
 =======================================================================
-<START:person> <sura <END> <START:person> index="2" <END> name="البقرة">
-<START:person> <aya <END> index="1" text="Alif <START:person> laam <END> miim."/>
-<START:person> <aya <END> <START:person> index="2" <END> text="Kitab (Al Quran) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,"/>
-<START:person> <aya <END> index="3" text="(yaitu) mereka yang beriman kepada yang ghaib, yang mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/>
-<START:person> <aya <END> index="4" text="dan mereka yang beriman kepada <START:person> Kitab <END> (Al Quran) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat."/>
-<START:person> <aya <END> index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung."/>
-<START:person> <aya <END> <START:person> index="6" <END> text="Sesungguhnya orang-orang kafir, sama saja bagi mereka, kamu beri peringatan atau tidak kamu beri peringatan, mereka tidak juga akan beriman."/>
-<START:person> <aya <END> index="7" text="Allah telah mengunci-mati hati dan pendengaran mereka, dan penglihatan mereka ditutup. Dan bagi mereka siksa yang amat berat."/>
-<START:person> <aya <END> index="8" text="Di antara manusia ada yang mengatakan: &quot;Kami beriman kepada Allah dan Hari kemudian,&quot; pada hal mereka itu sesungguhnya bukan orang-orang yang beriman."/>
-<START:person> <aya <END> index="9" text="Mereka <START:person> hendak <END> menipu Allah dan orang-orang yang beriman, padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/>
-<START:person> <aya <END> index="10" text="Dalam hati mereka ada penyakit, lalu ditambah Allah penyakitnya; dan bagi mereka siksa yang pedih, disebabkan mereka berdusta."/>
-<START:person> <aya <END> index="11" text="Dan bila dikatakan kepada mereka: &quot;Janganlah kamu membuat kerusakan di muka bumi&quot;. Mereka menjawab: &quot;Sesungguhnya kami orang-orang yang mengadakan perbaikan&quot;."/>
-<START:person> <aya <END> index="12" text="Ingatlah, sesungguhnya mereka itulah orang-orang yang membuat kerusakan, tetapi mereka tidak sadar."/>
-<START:person> <aya <END> index="13" text="Apabila dikatakan kepada mereka: &quot;Berimanlah kamu sebagaimana orang-orang lain telah beriman&quot;. Mereka menjawab: &quot;Akan berimankah kami sebagaimana orang-orang yang bodoh itu telah beriman?&quot; Ingatlah, sesungguhnya merekalah orang-orang yang bodoh; tetapi mereka tidak tahu."/>
-<START:person> <aya <END> index="14" text="Dan bila mereka berjumpa dengan orang-orang yang beriman, mereka mengatakan: &quot;Kami telah beriman&quot;. Dan bila mereka kembali kepada syaitan-syaitan mereka, mereka mengatakan: &quot;Sesungguhnya kami sependirian dengan kamu, kami hanyalah berolok-olok&quot;."/>
-<START:person> <aya <END> index="15" text="Allah <START:person> akan <END> (membalas) olok-olokan mereka dan membiarkan mereka terombang-ambing dalam kesesatan mereka."/>
-<START:person> <aya <END> index="16" text="Mereka itulah orang yang membeli kesesatan dengan petunjuk, maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/>
-<START:person> <aya <END> index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan api, maka setelah api itu menerangi sekelilingnya Allah hilangkan <START:person> cahaya <END> (yang menyinari) mereka, dan membiarkan mereka dalam kegelapan, tidak dapat melihat."/>
-<START:person> <aya <END> <START:person> index="18" <END> text="Mereka tuli, bisu dan buta, maka tidaklah mereka akan kembali (ke jalan yang benar),"/>
-<START:person> <aya <END> index="19" text="atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, <START:person> karena <END> (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir."/>
-<START:person> <aya <END> index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari mereka, mereka berjalan di bawah sinar itu, dan bila gelap menimpa mereka, <START:person> mereka <END> berhenti. Jikalau Allah menghendaki, <START:person> niscaya <END> Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya Allah berkuasa atas segala sesuatu."/>
-<START:person> <aya <END> <START:person> index="21" <END> text="Hai manusia, sembahlah Tuhanmu yang telah menciptakanmu dan orang-orang yang sebelummu, agar kamu bertakwa,"/>
-<START:person> <aya <END> index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai atap, dan Dia menurunkan air (hujan) dari langit, lalu Dia menghasilkan dengan hujan itu segala buah-buahan sebagai rezeki untukmu; karena itu janganlah kamu mengadakan sekutu-sekutu bagi Allah, padahal <START:person> kamu <END> mengetahui."/>
-<START:person> <aya <END> index="23" text="Dan jika kamu (tetap) dalam keraguan tentang Al Quran yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surat (saja) yang semisal Al Quran itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar."/>
-<START:person> <aya <END> index="24" text="Maka jika kamu tidak dapat membuat(nya) -- dan pasti kamu tidak akan dapat membuat(nya), peliharalah dirimu dari neraka yang bahan bakarnya manusia dan batu, yang disediakan bagi orang-orang kafir."/>
-<START:person> <aya <END> index="25" text="Dan sampaikanlah berita gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir sungai-sungai <START:person> di <END> dalamnya. Setiap mereka diberi rezeki buah-buahan dalam surga-surga itu, <START:person> mereka <END> mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi buah-buahan yang serupa dan untuk mereka di dalamnya ada isteri-isteri yang suci dan mereka kekal di dalamnya."/>
-<START:person> <aya <END> <START:person> index="26" <END> text="Sesungguhnya Allah tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun orang-orang yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan mereka, tetapi mereka yang kafir mengatakan: &quot;Apakah maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu (pula) banyak orang yang diberi-Nya petunjuk. Dan tidak ada yang disesatkan Allah kecuali orang-orang yang fasik,"/>
-<START:person> <aya <END> <START:person> index="27" <END> text="(yaitu) orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu teguh, dan memutuskan apa yang diperintahkan Allah (kepada mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. Mereka itulah orang-orang yang rugi."/>
-<START:person> <aya <END> index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya mati, lalu Allah menghidupkan kamu, kemudian kamu dimatikan dan dihidupkan-Nya kembali, kemudian kepada-Nya-lah <START:person> kamu <END> dikembalikan?"/>
-<START:person> <aya <END> <START:person> index="29" <END> text="Dialah Allah, yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) langit, lalu dijadikan-Nya <START:person> tujuh <END> langit. Dan <START:person> Dia <END> Maha Mengetahui <START:person> segala <END> sesuatu."/>
-<START:person> <aya <END> index="30" text="Ingatlah <START:person> ketika <END> Tuhanmu berfirman kepada para Malaikat: &quot;Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka <START:person> berkata: <END> &quot;Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan <START:person> mensucikan <END> Engkau?&quot; Tuhan <START:person> berfirman: <END> &quot;Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui&quot;."/>
-<START:person> <aya <END> <START:person> index="31" <END> text="Dan Dia mengajarkan kepada <START:person> Adam <END> nama-nama (benda-benda) seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu berfirman: &quot;Sebutkanlah kepada-Ku nama benda-benda itu jika kamu mamang benar orang-orang yang benar!&quot;"/>
-<START:person> <aya <END> <START:person> index="32" <END> text="Mereka <START:person> menjawab: <END> &quot;Maha Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada kami; sesungguhnya Engkaulah <START:person> Yang <END> Maha Mengetahui <START:person> lagi <END> Maha Bijaksana&quot;."/>
-<START:person> <aya <END> <START:person> index="33" <END> text="Allah berfirman: &quot;Hai Adam, beritahukanlah kepada mereka nama-nama <START:person> benda <END> ini&quot;. Maka setelah diberitahukannya kepada mereka nama-nama <START:person> benda <END> itu, Allah berfirman: &quot;Bukankah <START:person> sudah <END> Ku-katakan kepadamu, bahwa sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/>
-<START:person> <aya <END> <START:person> index="34" <END> text="Dan (ingatlah) ketika Kami berfirman kepada para malaikat: &quot;Sujudlah kamu kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan orang-orang yang kafir."/>
-<START:person> <aya <END> <START:person> index="35" <END> text="Dan Kami <START:person> berfirman: <END> &quot;Hai Adam, diamilah oleh kamu dan isterimu surga ini, dan makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu sukai, dan janganlah kamu dekati pohon ini, yang menyebabkan kamu termasuk orang-orang yang zalim."/>
-<START:person> <aya <END> index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami berfirman: &quot;Turunlah kamu! sebagian kamu menjadi musuh bagi yang lain, dan bagi kamu ada tempat kediaman di bumi, dan kesenangan hidup sampai waktu yang ditentukan&quot;."/>
-<START:person> <aya <END> <START:person> index="37" <END> text="Kemudian Adam menerima beberapa kalimat dari Tuhannya, maka Allah <START:person> menerima <END> taubatnya. Sesungguhnya Allah Maha Penerima <START:person> taubat lagi <END> Maha Penyayang."/>
-<START:person> <aya <END> <START:person> index="38" <END> text="Kami berfirman: &quot;Turunlah kamu semuanya dari surga itu! Kemudian jika datang petunjuk-Ku kepadamu, maka barang siapa yang mengikuti petunjuk-Ku, niscaya tidak ada kekhawatiran atas mereka, dan tidak (pula) mereka bersedih hati&quot;."/>
-<START:person> <aya <END> <START:person> index="39" <END> text="Adapun orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itu penghuni neraka; mereka kekal di dalamnya."/>
-<START:person> <aya <END> <START:person> index="40" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu, dan penuhilah janjimu kepada-Ku, niscaya Aku <START:person> penuhi <END> janji-Ku kepadamu; dan hanya kepada-Ku-lah kamu harus takut (tunduk)."/>
-<START:person> <aya <END> index="41" text="Dan berimanlah kamu kepada apa yang telah Aku turunkan (Al Quran) yang membenarkan apa yang ada padamu (Taurat), dan janganlah kamu menjadi orang yang pertama kafir kepadanya, dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang rendah, dan hanya kepada Akulah kamu <START:person> harus <END> bertakwa."/>
-<START:person> <aya <END> index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak itu, sedang kamu mengetahui."/>
-<START:person> <aya <END> index="43" text="Dan <START:person> dirikanlah <END> shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku'."/>
-<START:person> <aya <END> index="44" text="Mengapa kamu suruh orang lain (mengerjakan) kebaktian, sedang kamu melupakan diri (kewajiban)mu sendiri, padahal kamu membaca Al <START:person> Kitab <END> (Taurat)? Maka tidaklah <START:person> kamu <END> berpikir?"/>
-<START:person> <aya <END> index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. Dan sesungguhnya yang demikian itu sungguh berat, kecuali bagi orang-orang yang khusyu',"/>
-<START:person> <aya <END> <START:person> index="46" <END> text="(yaitu) orang-orang yang meyakini, bahwa mereka akan menemui Tuhannya, dan bahwa mereka akan kembali kepada-Nya."/>
-<START:person> <aya <END> <START:person> index="47" <END> text="Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu dan (ingatlah pula) bahwasanya Aku telah melebihkan kamu atas segala umat."/>
-<START:person> <aya <END> index="48" text="Dan jagalah dirimu dari (azab) hari (kiamat, yang pada hari itu) seseorang tidak dapat membela orang lain, walau sedikitpun; dan (begitu pula) tidak diterima syafa'at dan tebusan dari padanya, dan tidaklah mereka akan ditolong."/>
-<START:person> <aya <END> <START:person> index="49" <END> text="Dan (ingatlah) ketika Kami selamatkan kamu dari (Fir'aun) dan pengikut-pengikutnya; mereka menimpakan kepadamu siksaan yang seberat-beratnya, mereka menyembelih anak-anakmu yang laki-laki dan membiarkan hidup anak-anakmu yang perempuan. Dan pada yang demikian itu terdapat cobaan-cobaan yang besar dari Tuhanmu."/>
+<START:person> <sura <END> <START:person> index="2" name="البقرة"> <END>
+<START:person> <aya <END> <START:person> index="1" text="Alif laam miim."/> <END>
+<START:person> <aya <END> index="2" <START:person> text="Kitab <END> <START:person> (Al Quran) ini tidak ada keraguan <END> padanya; <START:person> petunjuk bagi mereka yang bertakwa,"/> <END>
+<START:person> <aya <END> <START:person> index="3" text="(yaitu) mereka yang beriman kepada yang <END> ghaib, yang <START:person> mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."/> <END>
+<START:person> <aya <END> <START:person> index="4" text="dan mereka yang beriman kepada Kitab <END> (Al Quran) <START:person> yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan <END> sebelummu, <START:person> serta mereka yakin akan adanya (kehidupan) akhirat."/> <END>
+<START:person> <aya <END> <START:person> index="5" text="Mereka itulah yang tetap mendapat petunjuk dari Tuhan <END> mereka, dan <START:person> merekalah orang-orang yang beruntung."/> <END>
+<START:person> <aya <END> <START:person> index="6" text="Sesungguhnya <END> orang-orang <START:person> kafir, sama saja bagi <END> mereka, <START:person> kamu beri peringatan atau tidak kamu beri <END> peringatan, mereka <START:person> tidak juga akan beriman."/> <END>
+<START:person> <aya <END> <START:person> index="7" text="Allah telah <END> mengunci-mati <START:person> hati dan pendengaran <END> mereka, <START:person> dan penglihatan mereka ditutup. Dan <END> bagi <START:person> mereka siksa yang amat berat."/> <END>
+<START:person> <aya <END> <START:person> index="8" text="Di antara manusia ada yang mengatakan: <END> &quot;Kami beriman <START:person> kepada Allah dan Hari <END> kemudian,&quot; <START:person> pada hal mereka itu sesungguhnya bukan <END> orang-orang yang beriman."/>
+<START:person> <aya <END> <START:person> index="9" <END> text="Mereka <START:person> hendak menipu Allah dan <END> orang-orang <START:person> yang <END> beriman, <START:person> padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."/> <END>
+<START:person> <aya <END> <START:person> index="10" text="Dalam hati mereka ada <END> penyakit, <START:person> lalu ditambah Allah <END> penyakitnya; <START:person> dan bagi mereka siksa yang <END> pedih, <START:person> disebabkan mereka berdusta."/> <END>
+<START:person> <aya <END> <START:person> index="11" text="Dan bila dikatakan kepada mereka: <END> &quot;Janganlah <START:person> kamu membuat kerusakan di muka bumi&quot;. Mereka <END> menjawab: &quot;Sesungguhnya <START:person> kami <END> orang-orang yang <START:person> mengadakan perbaikan&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="12" text="Ingatlah, sesungguhnya mereka itulah <END> orang-orang <START:person> yang membuat kerusakan, tetapi mereka tidak <END> sadar."/>
+<START:person> <aya <END> <START:person> index="13" text="Apabila dikatakan kepada <END> mereka: <START:person> &quot;Berimanlah kamu sebagaimana <END> orang-orang <START:person> lain telah beriman&quot;. <END> Mereka <START:person> menjawab: <END> <START:person> &quot;Akan berimankah kami sebagaimana <END> orang-orang yang <START:person> bodoh itu telah beriman?&quot; Ingatlah, <END> sesungguhnya <START:person> merekalah orang-orang yang <END> bodoh; <START:person> tetapi mereka tidak tahu."/> <END>
+<START:person> <aya <END> <START:person> index="14" <END> text="Dan <START:person> bila mereka berjumpa dengan <END> orang-orang yang beriman, mereka mengatakan: <START:person> &quot;Kami telah beriman&quot;. <END> Dan <START:person> bila mereka kembali kepada syaitan-syaitan <END> mereka, mereka mengatakan: <START:person> &quot;Sesungguhnya kami sependirian dengan <END> kamu, kami <START:person> hanyalah berolok-olok&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="15" <END> text="Allah akan (membalas) <START:person> olok-olokan mereka dan membiarkan mereka <END> terombang-ambing <START:person> dalam kesesatan mereka."/> <END>
+<START:person> <aya <END> <START:person> index="16" text="Mereka itulah orang yang membeli kesesatan dengan <END> petunjuk, <START:person> maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."/> <END>
+<START:person> <aya <END> <START:person> index="17" text="Perumpamaan mereka adalah seperti orang yang menyalakan <END> api, maka <START:person> setelah api itu menerangi sekelilingnya Allah hilangkan cahaya (yang menyinari) <END> mereka, <START:person> dan membiarkan mereka dalam <END> kegelapan, tidak <START:person> dapat melihat."/> <END>
+<START:person> <aya index="18" <END> text="Mereka <START:person> tuli, bisu dan <END> buta, <START:person> maka tidaklah mereka akan kembali <END> (ke <START:person> jalan yang benar),"/> <END>
+<START:person> <aya <END> <START:person> index="19" text="atau seperti <END> (orang-orang yang ditimpa) <START:person> hujan lebat dari langit disertai gelap <END> gulita, <START:person> guruh dan kilat; <END> mereka <START:person> menyumbat telinganya dengan anak <END> jarinya, <START:person> karena (mendengar suara) <END> petir, <START:person> sebab takut akan mati. Dan <END> Allah <START:person> meliputi <END> orang-orang yang <START:person> kafir."/> <END>
+<START:person> <aya <END> <START:person> index="20" text="Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari <END> mereka, <START:person> mereka berjalan di bawah sinar <END> itu, dan <START:person> bila gelap menimpa <END> mereka, <START:person> mereka berhenti. Jikalau Allah <END> menghendaki, <START:person> niscaya Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya <END> <START:person> Allah berkuasa atas segala sesuatu."/> <END>
+<START:person> <aya <END> <START:person> index="21" text="Hai <END> manusia, <START:person> sembahlah Tuhanmu yang telah menciptakanmu dan <END> orang-orang <START:person> yang <END> sebelummu, <START:person> agar kamu bertakwa,"/> <END>
+<START:person> <aya <END> <START:person> index="22" text="Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai <END> atap, <START:person> dan Dia menurunkan air <END> (hujan) dari langit, <START:person> lalu Dia menghasilkan dengan hujan itu segala <END> buah-buahan <START:person> sebagai rezeki untukmu; karena itu janganlah kamu mengadakan <END> sekutu-sekutu <START:person> bagi Allah, padahal kamu mengetahui."/> <END>
+<START:person> <aya <END> <START:person> index="23" text="Dan jika kamu <END> (tetap) dalam <START:person> keraguan tentang Al Quran <END> <START:person> yang Kami wahyukan kepada hamba Kami <END> (Muhammad), <START:person> buatlah satu surat <END> (saja) yang <START:person> semisal Al Quran <END> itu <START:person> dan ajaklah penolong-penolongmu selain <END> Allah, <START:person> jika kamu orang-orang yang benar."/> <END>
+<START:person> <aya <END> <START:person> index="24" text="Maka jika kamu tidak dapat membuat(nya) <END> -- <START:person> dan pasti kamu tidak akan dapat <END> membuat(nya), <START:person> peliharalah dirimu dari neraka yang bahan bakarnya manusia dan <END> batu, yang <START:person> disediakan bagi orang-orang <END> kafir."/>
+<START:person> <aya <END> <START:person> index="25" <END> text="Dan <START:person> sampaikanlah berita gembira kepada mereka yang beriman dan berbuat <END> baik, <START:person> bahwa bagi mereka disediakan <END> surga-surga <START:person> yang mengalir sungai-sungai di dalamnya. <END> Setiap <START:person> mereka diberi rezeki <END> buah-buahan <START:person> dalam surga-surga <END> itu, <START:person> mereka mengatakan: &quot;Inilah yang pernah diberikan kepada kami dahulu&quot;. Mereka diberi <END> buah-buahan <START:person> yang serupa dan untuk mereka di dalamnya ada <END> isteri-isteri <START:person> yang suci dan mereka kekal di dalamnya."/> <END>
+<START:person> <aya <END> <START:person> index="26" text="Sesungguhnya <END> Allah <START:person> tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun <END> orang-orang <START:person> yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan <END> mereka, <START:person> tetapi mereka yang kafir <END> mengatakan: &quot;Apakah <START:person> maksud Allah menjadikan ini untuk perumpamaan?&quot;. Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu <END> (pula) <START:person> banyak orang yang diberi-Nya petunjuk. <END> Dan <START:person> tidak ada yang disesatkan Allah kecuali <END> orang-orang <START:person> yang fasik,"/> <END>
+<START:person> <aya index="27" <END> text="(yaitu) <START:person> orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu <END> teguh, dan <START:person> memutuskan apa yang diperintahkan Allah <END> (kepada <START:person> mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. <END> Mereka <START:person> itulah <END> orang-orang <START:person> yang rugi."/> <END>
+<START:person> <aya <END> <START:person> index="28" text="Mengapa kamu kafir kepada Allah, padahal kamu tadinya <END> mati, <START:person> lalu Allah menghidupkan <END> kamu, <START:person> kemudian kamu dimatikan dan dihidupkan-Nya <END> kembali, <START:person> kemudian kepada-Nya-lah kamu dikembalikan?"/> <END>
+<START:person> <aya index="29" <END> text="Dialah Allah, <START:person> yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) <END> langit, <START:person> lalu <END> dijadikan-Nya <START:person> tujuh langit. Dan <END> <START:person> Dia <END> <START:person> Maha Mengetahui segala <END> sesuatu."/>
+<START:person> <aya index="30" <END> text="Ingatlah <START:person> ketika Tuhanmu berfirman kepada para Malaikat: <END> &quot;Sesungguhnya <START:person> Aku hendak menjadikan seorang khalifah di muka bumi&quot;. Mereka <END> berkata: <START:person> &quot;Mengapa <END> <START:person> Engkau hendak menjadikan <END> (khalifah) <START:person> di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan <END> darah, padahal <START:person> kami senantiasa bertasbih dengan memuji Engkau <END> dan <START:person> mensucikan Engkau?&quot; Tuhan <END> berfirman: <START:person> &quot;Sesungguhnya <END> <START:person> Aku mengetahui apa yang tidak kamu ketahui&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="31" text="Dan <END> Dia <START:person> mengajarkan kepada Adam <END> nama-nama <START:person> (benda-benda) <END> <START:person> seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu <END> berfirman: <START:person> &quot;Sebutkanlah <END> kepada-Ku <START:person> nama <END> benda-benda itu <START:person> jika kamu mamang benar <END> orang-orang <START:person> yang benar!&quot;"/> <END>
+<START:person> <aya <END> <START:person> index="32" text="Mereka <END> menjawab: <START:person> &quot;Maha <END> <START:person> Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada <END> kami; <START:person> sesungguhnya Engkaulah Yang Maha <END> Mengetahui <START:person> lagi Maha Bijaksana&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="33" text="Allah <END> berfirman: <START:person> &quot;Hai <END> <START:person> Adam, beritahukanlah kepada mereka <END> nama-nama <START:person> benda ini&quot;. Maka <END> setelah <START:person> diberitahukannya kepada mereka <END> nama-nama <START:person> benda itu, Allah <END> berfirman: <START:person> &quot;Bukankah sudah Ku-katakan <END> kepadamu, bahwa <START:person> sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?&quot;"/> <END>
+<START:person> <aya index="34" <END> text="Dan (ingatlah) <START:person> ketika Kami berfirman kepada para malaikat: <END> &quot;Sujudlah kamu <START:person> kepada Adam,&quot; maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan <END> orang-orang <START:person> yang kafir."/> <END>
+<START:person> <aya <END> <START:person> index="35" text="Dan Kami <END> berfirman: <START:person> &quot;Hai <END> <START:person> Adam, diamilah oleh kamu dan isterimu surga <END> ini, dan <START:person> makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu <END> sukai, dan <START:person> janganlah kamu dekati pohon <END> ini, yang <START:person> menyebabkan kamu termasuk <END> orang-orang <START:person> yang zalim."/> <END>
+<START:person> <aya <END> <START:person> index="36" text="Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami <END> berfirman: <START:person> &quot;Turunlah <END> <START:person> kamu! sebagian kamu menjadi musuh bagi yang <END> lain, <START:person> dan bagi kamu ada tempat kediaman di <END> bumi, <START:person> dan kesenangan hidup sampai waktu yang ditentukan&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="37" text="Kemudian <END> Adam <START:person> menerima beberapa kalimat dari Tuhannya, maka <END> Allah <START:person> menerima taubatnya. Sesungguhnya <END> Allah <START:person> Maha <END> <START:person> Penerima taubat lagi Maha Penyayang."/> <END>
+<START:person> <aya <END> <START:person> index="38" text="Kami berfirman: <END> &quot;Turunlah <START:person> kamu semuanya dari surga itu! Kemudian <END> jika <START:person> datang petunjuk-Ku <END> kepadamu, <START:person> maka barang siapa yang mengikuti <END> petunjuk-Ku, niscaya <START:person> tidak ada kekhawatiran atas <END> mereka, dan <START:person> tidak (pula) mereka bersedih hati&quot;."/> <END>
+<START:person> <aya <END> <START:person> index="39" text="Adapun <END> orang-orang <START:person> yang kafir dan mendustakan ayat-ayat <END> <START:person> Kami, mereka itu penghuni <END> neraka; mereka <START:person> kekal di dalamnya."/> <END>
+<START:person> <aya index="40" <END> text="Hai <START:person> Bani <END> <START:person> Israil, ingatlah akan <END> nikmat-Ku yang <START:person> telah Aku anugerahkan <END> kepadamu, <START:person> dan penuhilah janjimu <END> kepada-Ku, <START:person> niscaya Aku penuhi janji-Ku <END> kepadamu; dan <START:person> hanya kepada-Ku-lah kamu harus takut (tunduk)."/> <END>
+<START:person> <aya <END> <START:person> index="41" <END> text="Dan <START:person> berimanlah kamu kepada apa yang telah Aku turunkan <END> (Al <START:person> Quran) yang membenarkan apa yang ada padamu <END> (Taurat), <START:person> dan janganlah kamu menjadi orang yang pertama kafir <END> kepadanya, <START:person> dan janganlah kamu menukarkan <END> ayat-ayat-Ku dengan <START:person> harga yang rendah, dan hanya kepada Akulah <END> kamu <START:person> harus bertakwa."/> <END>
+<START:person> <aya <END> <START:person> index="42" text="Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak <END> itu, sedang <START:person> kamu mengetahui."/> <END>
+<START:person> <aya <END> <START:person> index="43" <END> text="Dan <START:person> dirikanlah <END> shalat, <START:person> tunaikanlah zakat dan ruku'lah beserta <END> orang-orang <START:person> yang ruku'."/> <END>
+<START:person> <aya <END> <START:person> index="44" <END> text="Mengapa <START:person> kamu suruh orang lain (mengerjakan) <END> kebaktian, <START:person> sedang kamu melupakan diri (kewajiban)mu <END> sendiri, <START:person> padahal kamu membaca Al <END> Kitab <START:person> (Taurat)? <END> <START:person> Maka tidaklah kamu berpikir?"/> <END>
+<START:person> <aya <END> <START:person> index="45" text="Jadikanlah sabar dan shalat sebagai penolongmu. <END> Dan <START:person> sesungguhnya yang demikian itu sungguh <END> berat, kecuali <START:person> bagi orang-orang yang khusyu',"/> <END>
+<START:person> <aya <END> <START:person> index="46" text="(yaitu) <END> orang-orang <START:person> yang meyakini, bahwa mereka akan menemui Tuhannya, <END> dan <START:person> bahwa mereka akan kembali kepada-Nya."/> <END>
+<START:person> <aya <END> <START:person> index="47" text="Hai Bani <END> Israil, <START:person> ingatlah akan nikmat-Ku <END> yang <START:person> telah Aku anugerahkan kepadamu dan (ingatlah <END> pula) <START:person> bahwasanya Aku telah melebihkan kamu atas segala umat."/> <END>
+<START:person> <aya <END> <START:person> index="48" text="Dan jagalah dirimu dari <END> (azab) <START:person> hari <END> (kiamat, <START:person> yang pada hari <END> itu) <START:person> seseorang tidak dapat membela orang <END> lain, <START:person> walau <END> sedikitpun; dan (begitu <START:person> pula) tidak diterima <END> syafa'at dan <START:person> tebusan dari padanya, <END> dan <START:person> tidaklah mereka akan ditolong."/> <END>
+<START:person> <aya index="49" <END> text="Dan (ingatlah) <START:person> ketika Kami selamatkan kamu dari (Fir'aun) dan <END> pengikut-pengikutnya; mereka <START:person> menimpakan kepadamu siksaan yang <END> seberat-beratnya, mereka <START:person> menyembelih anak-anakmu yang <END> laki-laki <START:person> dan membiarkan hidup <END> anak-anakmu <START:person> yang perempuan. Dan <END> pada <START:person> yang demikian itu terdapat <END> cobaan-cobaan yang <START:person> besar dari Tuhanmu."/> <END>
 
 =======================================================================
 ==docs/sura_2.xml
