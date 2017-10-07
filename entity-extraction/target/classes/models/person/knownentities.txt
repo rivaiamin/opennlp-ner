@@ -1,91 +1,91 @@
-adam
-idris
-nuh
-hud
-shaleh
-ibrahim
-luth
-ismail
-ishaq
-ya’qub
-yusuf
-ayyub
-syu’aib
-musa
-harun
-dzulkifli
-daud
-sulaiman
-ilyas
-ilyasa’
-yunus
-zakaria
-yahya
-isa
-muhammad
-ahmad
-maryam
-fir'aun
-haman
-jalut
-qarun
-samiri
-dzulkarnain
-imran
-al-aziz
-talut
-azar
-uzair
-luqman
-abu lahab
-zaid
-abdullah bin umi maktum
-habil
-qabil
-hawa
-abu bakar
-aisyah
-abu jahal
-abu lahab
-umu jamil
-istri fir'aun
-walid bin mughirah
-al-aas ibn wael
-aus bin as-samit
-khaulah binti tsa'labah
-azar
-aziz
-al aziz
-raja mesir
-istri azis
-istri luth
-jalut
-talut
-dzulkarnain
-luqman
-anak luqman
-maryam
-hafsah
-hajar
-haman
-saudara perempuan musa
-abdullah bin ubay
-sarah
-imran
-istri imran
-samiri
-istri musa
-istri zakaria
-ibu musa
-zaid
-zainab
-namrud
-anak nuh
-istri nuh
-qarun
-ratu balqis
-tubba
-uzair
-istri ayyub
-khidr
-hanah
+Adam
+Idris
+Nuh
+Hud
+Shaleh
+Ibrahim
+Luth
+Ismail
+Ishaq
+Ya’qub
+Yusuf
+Ayyub
+Syu’aib
+Musa
+Harun
+Dzulkifli
+Daud
+Sulaiman
+Ilyas
+Ilyasa’
+Yunus
+Zakaria
+Yahya
+Isa
+Muhammad
+Ahmad
+Maryam
+Fir'aun
+Haman
+Jalut
+Qarun
+Samiri
+Dzulkarnain
+Imran
+Al-aziz
+Talut
+Azar
+Uzair
+Luqman
+Abu Lahab
+Zaid
+Abdullah Bin Umi Maktum
+Habil
+Qabil
+Hawa
+Abu Bakar
+Aisyah
+Abu Jahal
+Abu Lahab
+Umu Jamil
+istri Fir'aun
+Walid bin Mughirah
+Al-aas Ibn Wael
+Aus bin As-samit
+Khaulah binti Tsa'labah
+Azar
+Aziz
+Al Aziz
+Raja Mesir
+istri Azis
+istri Luth
+Jalut
+Talut
+Dzulkarnain
+Luqman
+anak Luqman
+Maryam
+Hafsah
+Hajar
+Haman
+saudara perempuan Musa
+Abdullah bin Ubay
+Sarah
+Imran
+Istri Imran
+Samiri
+Istri Musa
+Istri Zakaria
+Ibu Musa
+Zaid
+Zainab
+Namrud
+anak Nuh
+istri Nuh
+Qarun
+Ratu Balqis
+Tubba
+Uzair
+istri Ayyub
+Khidr
+Hanah
