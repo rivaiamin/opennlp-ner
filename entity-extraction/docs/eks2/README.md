@@ -1,1 +1,1 @@
-Eksperimen dengan menambahkan lebih banyak sentences
+Eksperimen dengan menggunakan "sentences" yang dipilih secara manual

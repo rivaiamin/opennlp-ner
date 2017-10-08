@@ -26,6 +26,7 @@ public class CreateModel {
 	public static void main(String[] args) throws Exception {
 		
 		String modelType = args[0];
+		int iteration = Integer.parseInt(args[1]);
 
 		/**
 	     * establish a file to put sentences in
@@ -56,6 +57,6 @@ public class CreateModel {
 	     * THIS IS WHERE THE ADDON IS GOING TO USE THE FILES (AS IS) TO CREATE A NEW MODEL. YOU SHOULD NOT HAVE TO RUN THE FIRST PART AGAIN AFTER THIS RUNS, JUST NOW PLAY WITH THE
 	     * KNOWN ENTITIES AND BLACKLIST FILES AND RUN THE METHOD BELOW AGAIN UNTIL YOU GET SOME DECENT RESULTS (A DECENT MODEL OUT OF IT).
 	     */
-	    DefaultModelBuilderUtil.generateModel(sentences, knownEntities, blacklistedentities, theModel, annotatedSentences, modelType, 4);
+	    DefaultModelBuilderUtil.generateModel(sentences, knownEntities, blacklistedentities, theModel, annotatedSentences, modelType, iteration);
 	}
 }
