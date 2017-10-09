@@ -27,7 +27,7 @@
 	<analysisEngineMetaData>
 		<name>Sentence Detector</name>
 		<description></description>
-		<version>1.6.0-SNAPSHOT</version>
+		<version>1.8.2</version>
 		<vendor>Apache Software Foundation</vendor>
 		<configurationParameters>
 			<configurationParameter>

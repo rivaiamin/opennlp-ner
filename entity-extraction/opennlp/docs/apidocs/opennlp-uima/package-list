@@ -1,4 +1,5 @@
 opennlp.uima.chunker
+opennlp.uima.dictionary
 opennlp.uima.doccat
 opennlp.uima.namefind
 opennlp.uima.normalizer
